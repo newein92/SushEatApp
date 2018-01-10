@@ -12,7 +12,6 @@ PInvoke.NCrypt
 PInvoke.Windows.Core
 Plugin.BLE.Abstractions
 Plugin.BLE
-SushEat
 System.Runtime
 Validation
 Xamarin.Android.Support.Animated.Vector.Drawable
@@ -28,10 +27,7 @@ Xamarin.Forms.Core
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
-System.Diagnostics.Tools
-System.Diagnostics.Debug
-System.Threading.Tasks
-System.ObjectModel
 System.Resources.ResourceManager
 System.Reflection.Extensions
+System.Diagnostics.Tools
 System.ComponentModel
