@@ -1,0 +1,1 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android"><color name="row_pressed_start">#00aa00</color><color name="row_pressed_end">#00ff00</color><color name="row_selected">#ff0000</color><color name="row_background">#0A695F</color><color name="row_text1">#FFFFFF</color><color name="row_text2">#FFFFFF</color></resources>

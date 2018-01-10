@@ -1,0 +1,6 @@
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\SushEat\bin\Debug\SushEat.dll
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\SushEat\bin\Debug\SushEat.pdb
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\SushEat\obj\Debug\SushEat.csproj.CoreCompileInputs.cache
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\SushEat\obj\Debug\SushEat.TodoList.xaml.g.cs
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\SushEat\obj\Debug\SushEat.dll
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\SushEat\obj\Debug\SushEat.pdb
