@@ -2,6 +2,7 @@ C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure
 C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\bin\Debug\SushEat.Droid.pdb
 C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\bin\Debug\com.xamarin.sample.SushEat.apk
 C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\bin\Debug\com.xamarin.sample.SushEat-Signed.apk
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\SushEat.Droid.csprojResolveAssemblyReference.cache
 C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\SushEat.Droid.csproj.CoreCompileInputs.cache
 C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\SushEat.Droid.dll
 C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\SushEat.Droid.pdb

@@ -2574,7 +2574,7 @@ containing a value of this type.
         public static final int notification_template_icon_bg=0x7f0200a4;
     }
     public static final class id {
-        public static final int HomeUser=0x7f070075;
+        public static final int PrivateUser=0x7f070075;
         public static final int RestaurantChef=0x7f070077;
         public static final int RestaurantCustomer=0x7f070076;
         public static final int action0=0x7f070092;

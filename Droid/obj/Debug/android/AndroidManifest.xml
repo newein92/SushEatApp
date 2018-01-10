@@ -8,6 +8,7 @@
   <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
   <uses-feature android:name="android.hardware.bluetooth_le" android:required="true" />
   <application android:label="SushEat" android:icon="@drawable/icon" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <activity android:label="PrivateUser" android:name="md56dd882e6687e72a15a6eaa8f9900198e.PrivateUser" />
     <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="SushEat.Droid" android:theme="@android:style/Theme.DeviceDefault" android:name="md56dd882e6687e72a15a6eaa8f9900198e.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

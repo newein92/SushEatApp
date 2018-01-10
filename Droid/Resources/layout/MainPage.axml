@@ -12,24 +12,23 @@
         android:layout_gravity="center_horizontal" />
     <TextView
         android:text="Welcome To SushEat!"
-        android:textColor="@android:color/black"
+        android:background="@android:drawable/dialog_frame"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/welcomeMessage"
         android:textAlignment="center" />
     <TextView
         android:text="Please select type of user:"
-        android:textAppearance="?android:attr/textAppearanceLarge"
         android:background="@android:drawable/dialog_frame"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/welcomeMessage1"
         android:textAlignment="center" />
     <Button
-        android:text="Home User"
+        android:text="Private User"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/HomeUser" />
+        android:id="@+id/PrivateUser" />
     <Button
         android:text="Restaurant Customer"
         android:layout_width="match_parent"

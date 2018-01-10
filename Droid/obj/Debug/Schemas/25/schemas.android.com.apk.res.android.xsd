@@ -2,7 +2,7 @@
 <xs:schema xmlns:android="http://schemas.android.com/apk/res/android" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res/android" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>10-Jan-18 19:39:10</xs:documentation>
+    <xs:documentation>10-Jan-18 21:20:30</xs:documentation>
   </xs:annotation>
   <xs:attribute name="accessibilityLiveRegion">
     <xs:annotation>
@@ -352,7 +352,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -451,7 +450,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -1063,6 +1061,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelColorBackground" />
             <xs:enumeration value="?android:attr/panelColorForeground" />
@@ -1168,7 +1168,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -1633,6 +1632,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -1654,6 +1654,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -1748,7 +1750,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -1866,7 +1867,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -1965,7 +1965,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -2331,6 +2330,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -2352,6 +2352,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -2448,7 +2450,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -2784,6 +2785,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelColorBackground" />
             <xs:enumeration value="?android:attr/panelColorForeground" />
@@ -3026,6 +3029,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -3047,6 +3051,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -3343,7 +3349,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -3659,6 +3664,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -3680,6 +3686,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -3980,6 +3988,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -4001,6 +4010,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -4315,6 +4326,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -4336,6 +4348,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -4594,6 +4608,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -4615,6 +4630,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -4849,6 +4866,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -4870,6 +4888,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -5543,6 +5563,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -5564,6 +5585,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -5643,7 +5666,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -5742,7 +5764,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -5978,6 +5999,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -5999,6 +6021,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -6078,7 +6102,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -6372,6 +6395,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -6393,6 +6417,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -6934,6 +6960,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelColorBackground" />
             <xs:enumeration value="?android:attr/panelColorForeground" />
@@ -7257,6 +7285,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelColorBackground" />
             <xs:enumeration value="?android:attr/panelColorForeground" />
@@ -7580,6 +7610,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelColorBackground" />
             <xs:enumeration value="?android:attr/panelColorForeground" />
@@ -7943,6 +7975,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelColorBackground" />
             <xs:enumeration value="?android:attr/panelColorForeground" />
@@ -8266,6 +8300,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelColorBackground" />
             <xs:enumeration value="?android:attr/panelColorForeground" />
@@ -8371,7 +8407,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -8707,6 +8742,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelColorBackground" />
             <xs:enumeration value="?android:attr/panelColorForeground" />
@@ -9005,6 +9042,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -9026,6 +9064,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -9365,6 +9405,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelColorBackground" />
             <xs:enumeration value="?android:attr/panelColorForeground" />
@@ -9729,6 +9771,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -9750,6 +9793,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -10140,6 +10185,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -10161,6 +10207,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -10669,6 +10717,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -10690,6 +10739,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -11217,6 +11268,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelColorBackground" />
             <xs:enumeration value="?android:attr/panelColorForeground" />
@@ -11704,6 +11757,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelColorBackground" />
             <xs:enumeration value="?android:attr/panelColorForeground" />
@@ -11874,7 +11929,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -12255,6 +12309,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -12276,6 +12331,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -12492,6 +12549,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -12513,6 +12571,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -12729,6 +12789,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -12750,6 +12811,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -12966,6 +13029,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -12987,6 +13051,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -13203,6 +13269,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -13224,6 +13291,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -13440,6 +13509,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -13461,6 +13531,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -13677,6 +13749,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -13698,6 +13771,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -13914,6 +13989,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -13935,6 +14011,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -14054,7 +14132,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -14353,6 +14430,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -14374,6 +14452,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -14617,6 +14697,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -14638,6 +14719,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -14854,6 +14937,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -14875,6 +14959,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -15091,6 +15177,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -15112,6 +15199,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -15328,6 +15417,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -15349,6 +15439,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -15605,6 +15697,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -15626,6 +15719,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -15923,6 +16018,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelColorBackground" />
             <xs:enumeration value="?android:attr/panelColorForeground" />
@@ -16165,6 +16262,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -16186,6 +16284,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -16442,6 +16542,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -16463,6 +16564,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -16542,7 +16645,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -16778,6 +16880,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -16799,6 +16902,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -17015,6 +17120,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -17036,6 +17142,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -17284,7 +17392,7 @@
             <xs:enumeration value="@id/button3" />
             <xs:enumeration value="@id/button4" />
             <xs:enumeration value="@id/gridLayout2" />
-            <xs:enumeration value="@id/HomeUser" />
+            <xs:enumeration value="@id/PrivateUser" />
             <xs:enumeration value="@id/RestaurantChef" />
             <xs:enumeration value="@id/RestaurantCustomer" />
             <xs:enumeration value="@id/textView1" />
@@ -17564,6 +17672,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -17585,6 +17694,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -17912,6 +18023,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -17933,6 +18045,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -18244,6 +18358,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -18265,6 +18380,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -18402,7 +18519,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -18817,6 +18933,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -18838,6 +18955,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -19141,6 +19260,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -19162,6 +19282,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -19538,6 +19660,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -19559,6 +19682,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -19895,6 +20020,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -19916,6 +20042,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -20148,6 +20276,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -20169,6 +20298,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -20848,6 +20979,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -20869,6 +21001,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -21288,6 +21422,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelColorBackground" />
             <xs:enumeration value="?android:attr/panelColorForeground" />
@@ -22211,6 +22347,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -22232,6 +22369,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -22460,6 +22599,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -22481,6 +22621,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -22739,6 +22881,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -22760,6 +22903,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -23016,6 +23161,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -23037,6 +23183,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -23253,6 +23401,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -23274,6 +23423,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -23490,6 +23641,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -23511,6 +23663,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -23727,6 +23881,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -23748,6 +23903,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -23964,6 +24121,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -23985,6 +24143,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -24064,7 +24224,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -24163,7 +24322,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -24262,7 +24420,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -24361,7 +24518,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -24707,6 +24863,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -24728,6 +24885,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -25042,6 +25201,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelColorBackground" />
             <xs:enumeration value="?android:attr/panelColorForeground" />
@@ -25365,6 +25526,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelColorBackground" />
             <xs:enumeration value="?android:attr/panelColorForeground" />
@@ -26116,6 +26279,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelColorBackground" />
             <xs:enumeration value="?android:attr/panelColorForeground" />
@@ -26398,6 +26563,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -26419,6 +26585,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -26570,7 +26738,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -26825,6 +26992,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -26846,6 +27014,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -26925,7 +27095,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -27180,6 +27349,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -27201,6 +27371,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -27417,6 +27589,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -27438,6 +27611,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -27603,7 +27778,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -28207,6 +28381,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -28228,6 +28403,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -28444,6 +28621,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -28465,6 +28643,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -28681,6 +28861,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -28702,6 +28883,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -28918,6 +29101,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -28939,6 +29123,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -29335,6 +29521,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -29356,6 +29543,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -29572,6 +29761,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -29593,6 +29783,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -29690,7 +29882,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -29985,6 +30176,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -30006,6 +30198,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -30303,6 +30497,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelColorBackground" />
             <xs:enumeration value="?android:attr/panelColorForeground" />
@@ -30545,6 +30741,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -30566,6 +30763,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -30725,7 +30924,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -31315,6 +31513,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelColorBackground" />
             <xs:enumeration value="?android:attr/panelColorForeground" />
@@ -31853,6 +32053,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelColorBackground" />
             <xs:enumeration value="?android:attr/panelColorForeground" />
@@ -32153,6 +32355,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -32174,6 +32377,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -33012,7 +33217,6 @@
             <xs:enumeration value="?android:attr/actionBarTabBarStyle" />
             <xs:enumeration value="?android:attr/actionBarTabStyle" />
             <xs:enumeration value="?android:attr/actionBarTabTextStyle" />
-            <xs:enumeration value="?android:attr/actionBarTheme" />
             <xs:enumeration value="?android:attr/actionButtonStyle" />
             <xs:enumeration value="?android:attr/actionDropDownStyle" />
             <xs:enumeration value="?android:attr/actionMenuTextAppearance" />
@@ -33059,7 +33263,6 @@
             <xs:enumeration value="?android:attr/horizontalScrollViewStyle" />
             <xs:enumeration value="?android:attr/imageButtonStyle" />
             <xs:enumeration value="?android:attr/imageWellStyle" />
-            <xs:enumeration value="?android:attr/listMenuViewStyle" />
             <xs:enumeration value="?android:attr/listPopupWindowStyle" />
             <xs:enumeration value="?android:attr/listSeparatorTextViewStyle" />
             <xs:enumeration value="?android:attr/listViewStyle" />
@@ -33129,7 +33332,6 @@
             <xs:enumeration value="?android:attr/textAppearanceMedium" />
             <xs:enumeration value="?android:attr/textAppearanceMediumInverse" />
             <xs:enumeration value="?android:attr/textAppearanceMisspelledSuggestion" />
-            <xs:enumeration value="?android:attr/textAppearancePopupMenuHeader" />
             <xs:enumeration value="?android:attr/textAppearanceSearchResultSubtitle" />
             <xs:enumeration value="?android:attr/textAppearanceSearchResultTitle" />
             <xs:enumeration value="?android:attr/textAppearanceSmall" />
@@ -33143,7 +33345,6 @@
             <xs:enumeration value="?android:attr/toolbarStyle" />
             <xs:enumeration value="?android:attr/webTextViewStyle" />
             <xs:enumeration value="?android:attr/webViewStyle" />
-            <xs:enumeration value="?android:attr/windowAnimationStyle" />
             <xs:enumeration value="?android:attr/windowTitleBackgroundStyle" />
             <xs:enumeration value="?android:attr/windowTitleStyle" />
             <xs:enumeration value="?android:attr/yesNoPreferenceStyle" />
@@ -33353,6 +33554,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -33374,6 +33576,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -33632,6 +33836,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -33653,6 +33858,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -33732,7 +33939,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -33968,6 +34174,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -33989,6 +34196,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -34285,6 +34494,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -34306,6 +34516,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -34522,6 +34734,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -34543,6 +34756,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -34799,6 +35014,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -34820,6 +35036,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -35036,6 +35254,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -35057,6 +35276,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -35422,6 +35643,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -35443,6 +35665,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -35740,6 +35964,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelColorBackground" />
             <xs:enumeration value="?android:attr/panelColorForeground" />
@@ -36063,6 +36289,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelColorBackground" />
             <xs:enumeration value="?android:attr/panelColorForeground" />
@@ -36386,6 +36614,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelColorBackground" />
             <xs:enumeration value="?android:attr/panelColorForeground" />
@@ -36709,6 +36939,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelColorBackground" />
             <xs:enumeration value="?android:attr/panelColorForeground" />
@@ -36951,6 +37183,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -36972,6 +37205,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -37214,6 +37449,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -37235,6 +37471,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -37451,6 +37689,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -37472,6 +37711,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -37688,6 +37929,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -37709,6 +37951,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -37925,6 +38169,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -37946,6 +38191,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -38162,6 +38409,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -38183,6 +38431,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -38399,6 +38649,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -38420,6 +38671,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -38636,6 +38889,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -38657,6 +38911,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -39049,6 +39305,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -39070,6 +39327,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -39286,6 +39545,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -39307,6 +39567,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -39523,6 +39785,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -39544,6 +39807,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -40367,7 +40632,6 @@
             <xs:enumeration value="?android:attr/actionBarTabBarStyle" />
             <xs:enumeration value="?android:attr/actionBarTabStyle" />
             <xs:enumeration value="?android:attr/actionBarTabTextStyle" />
-            <xs:enumeration value="?android:attr/actionBarTheme" />
             <xs:enumeration value="?android:attr/actionButtonStyle" />
             <xs:enumeration value="?android:attr/actionDropDownStyle" />
             <xs:enumeration value="?android:attr/actionMenuTextAppearance" />
@@ -40414,7 +40678,6 @@
             <xs:enumeration value="?android:attr/horizontalScrollViewStyle" />
             <xs:enumeration value="?android:attr/imageButtonStyle" />
             <xs:enumeration value="?android:attr/imageWellStyle" />
-            <xs:enumeration value="?android:attr/listMenuViewStyle" />
             <xs:enumeration value="?android:attr/listPopupWindowStyle" />
             <xs:enumeration value="?android:attr/listSeparatorTextViewStyle" />
             <xs:enumeration value="?android:attr/listViewStyle" />
@@ -40484,7 +40747,6 @@
             <xs:enumeration value="?android:attr/textAppearanceMedium" />
             <xs:enumeration value="?android:attr/textAppearanceMediumInverse" />
             <xs:enumeration value="?android:attr/textAppearanceMisspelledSuggestion" />
-            <xs:enumeration value="?android:attr/textAppearancePopupMenuHeader" />
             <xs:enumeration value="?android:attr/textAppearanceSearchResultSubtitle" />
             <xs:enumeration value="?android:attr/textAppearanceSearchResultTitle" />
             <xs:enumeration value="?android:attr/textAppearanceSmall" />
@@ -40498,7 +40760,6 @@
             <xs:enumeration value="?android:attr/toolbarStyle" />
             <xs:enumeration value="?android:attr/webTextViewStyle" />
             <xs:enumeration value="?android:attr/webViewStyle" />
-            <xs:enumeration value="?android:attr/windowAnimationStyle" />
             <xs:enumeration value="?android:attr/windowTitleBackgroundStyle" />
             <xs:enumeration value="?android:attr/windowTitleStyle" />
             <xs:enumeration value="?android:attr/yesNoPreferenceStyle" />
@@ -40708,6 +40969,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -40729,6 +40991,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -40888,7 +41152,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -41136,6 +41399,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -41157,6 +41421,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -41236,7 +41502,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -41411,7 +41676,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -41901,6 +42165,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -41922,6 +42187,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -42001,7 +42268,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -42317,6 +42583,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -42338,6 +42605,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -42417,7 +42686,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -42850,7 +43118,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
@@ -43167,6 +43434,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelColorBackground" />
             <xs:enumeration value="?android:attr/panelColorForeground" />
@@ -43557,6 +43826,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -43578,6 +43848,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -43810,6 +44082,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -43831,6 +44104,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -44047,6 +44322,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -44068,6 +44344,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -44365,6 +44643,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelColorBackground" />
             <xs:enumeration value="?android:attr/panelColorForeground" />
@@ -44688,6 +44968,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelColorBackground" />
             <xs:enumeration value="?android:attr/panelColorForeground" />
@@ -44982,6 +45264,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -45003,6 +45286,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -45219,6 +45504,7 @@
             <xs:enumeration value="?android:attr/actionModeWebSearchDrawable" />
             <xs:enumeration value="?android:attr/activatedBackgroundIndicator" />
             <xs:enumeration value="?android:attr/alertDialogIcon" />
+            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/dividerHorizontal" />
             <xs:enumeration value="?android:attr/dividerVertical" />
             <xs:enumeration value="?android:attr/editTextBackground" />
@@ -45240,6 +45526,8 @@
             <xs:enumeration value="?android:attr/listChoiceIndicatorMultiple" />
             <xs:enumeration value="?android:attr/listChoiceIndicatorSingle" />
             <xs:enumeration value="?android:attr/listDivider" />
+            <xs:enumeration value="?android:attr/listDividerAlertDialog" />
+            <xs:enumeration value="?android:attr/panelBackground" />
             <xs:enumeration value="?android:attr/panelFullBackground" />
             <xs:enumeration value="?android:attr/quickContactBadgeOverlay" />
             <xs:enumeration value="?android:attr/selectableItemBackground" />
@@ -45319,7 +45607,6 @@
             <xs:enumeration value="?android:attr/colorPrimaryDark" />
             <xs:enumeration value="?android:attr/colorSecondary" />
             <xs:enumeration value="?android:attr/colorSwitchThumbNormal" />
-            <xs:enumeration value="?android:attr/detailsElementBackground" />
             <xs:enumeration value="?android:attr/editTextColor" />
             <xs:enumeration value="?android:attr/fastScrollTextColor" />
             <xs:enumeration value="?android:attr/floatingToolbarForegroundColor" />
