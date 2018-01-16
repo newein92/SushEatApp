@@ -23,7 +23,7 @@ using Microsoft.WindowsAzure.Storage.Table; // Namespace for Table storage types
 
 
 namespace SushEat.Droid{
-	[Activity (Label = "SushEat",
+    [Activity (Label = "SushEat",
 		Icon = "@drawable/icon",
 		MainLauncher = true,
 		ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation,
@@ -36,15 +36,22 @@ namespace SushEat.Droid{
             Button PrivateUser = FindViewById<Android.Widget.Button>(Resource.Id.PrivateUser);
             Button RestaurantCustomer = FindViewById<Android.Widget.Button>(Resource.Id.RestaurantCustomer);
             Button RestaurantChef = FindViewById<Android.Widget.Button>(Resource.Id.RestaurantChef);
+
+            RestaurantCustomer.Click += delegate
+            {
+                var intent = new Intent(this, typeof(RestaurantCustomer));
+                StartActivity(intent);
+
+            };
             PrivateUser.Click += delegate
             {
                 var intent = new Intent(this, typeof(PrivateUser));
                 StartActivity(intent);
             };
-           
-
         }
+
     }
+  
 
     public class BluetoothConnection{
         public void getAdapter() { this.thisAdapter = BluetoothAdapter.DefaultAdapter; }
