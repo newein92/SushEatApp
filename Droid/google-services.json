@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "701711600284",
+    "firebase_url": "https://susheat-6e165.firebaseio.com",
+    "project_id": "susheat-6e165",
+    "storage_bucket": "susheat-6e165.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:701711600284:android:77955ce9a8fbd06f",
+        "android_client_info": {
+          "package_name": "com.xamarin.sample.SushEat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "701711600284-u51ipei81rcoo6n85n2t5vj1q9moe7pd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOPbmc1752uDQA1NpqPoexKrZrMV62LOI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

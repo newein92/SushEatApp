@@ -28,7 +28,7 @@ using System.Linq;
 
 namespace SushEat.Droid
 {
-    [Activity(Label = "PrivateUser")]
+    [Activity(Label = "Make your own Sushi")]
     public class PrivateUser : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

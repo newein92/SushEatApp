@@ -14,9 +14,16 @@ using Android.Bluetooth;
 //using Xamarin.Forms;
 //using Xamarin.Forms.Platform.Android;
 using System.Linq;
+//using Gcm.Client;
+
+//using Microsoft.Azure; // Namespace for CloudConfigurationManager
+using Microsoft.WindowsAzure.Storage; // Namespace for CloudStorageAccount
+using Microsoft.WindowsAzure.Storage.Table; // Namespace for Table storage types
+//using Microsoft.Azure; //Namespace for CloudConfigurationManager
+
 
 namespace SushEat.Droid{
-	[Activity (Label = "SushEat.Droid",
+	[Activity (Label = "SushEat",
 		Icon = "@drawable/icon",
 		MainLauncher = true,
 		ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation,
@@ -34,6 +41,8 @@ namespace SushEat.Droid{
                 var intent = new Intent(this, typeof(PrivateUser));
                 StartActivity(intent);
             };
+           
+
         }
     }
 
