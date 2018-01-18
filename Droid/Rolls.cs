@@ -29,47 +29,38 @@ using System.Linq;
 namespace SushEat.Droid
 {
     [Activity(Label = "Choose Rolls")]
-    public class Rolls : Activity
+    public class Rolls : RestaurantCustomer
     {
         ListView listrolls;
-        //private List<string> saucelist;
-
+        List<RollItem> selectedRollItems;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Rolls);
-
+            selectedRollItems = new List<RollItem>();
+            selectedRollItems.Insert(0, new RollItem("Green Roll", false));
+            selectedRollItems.Insert(1, new RollItem("Vegetarian Roll", false));
+            selectedRollItems.Insert(2, new RollItem("Winter Roll", false));
             var rolllist = new string[]
             {
                "Green Roll- cucumber, chives, cream cheese, red tuna",
                 "Vegetarian Roll- cucumber, carrot, avocado",
                 "Winter Roll- salmon, mushrooms, sweet potato"
             };
-
-            // var OrderButton = FindViewById<Button>(Resource.Id.buttonorder);
-            //OrderButton.Click += OrderButton_Click;
-
             listrolls = FindViewById<ListView>(Resource.Id.listView1);
             listrolls.Adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItemMultipleChoice, rolllist);
-            //listnames.Adapter = adapter;
             listrolls.ChoiceMode = ChoiceMode.Multiple;
-
-            //listnames.ItemClick += Listnames_ItemClick;
+            Button rollOrder = FindViewById<Android.Widget.Button>(Resource.Id.rollOrder);
+            rollOrder.Click += delegate
+            {
+                customer.order.selectedRollItems = selectedRollItems;
+                Toast.MakeText(this, "The selected items were added to cart", ToastLength.Long).Show();
+            };
+            listrolls.ItemClick += listrolls_ItemClick;
         }
-
-        // private void Listnames_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
-        //{
-        //  Toast.MakeText(this, e.Position.ToString(), ToastLength.Long).Show();
-        //}
-        /* void OrderButton_Click(object sender, EventArgs e)
-         {
-             var builder = new StringBuilder();
-             var sparseArray = FindViewById<ListView>(Resource.Id.listView1).CheckedItemPositions;
-             for (var i = 0; i < sparseArray.Size(); i++)
-             {
-                 builder.AppendLine(string.Format("{0}={1}", sparseArray.KeyAt(i), sparseArray.ValueAt(i)));
-             }
-         }*/
-
+        void listrolls_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
+        {
+            selectedRollItems.ElementAt<RollItem>(e.Position).selected = !(selectedRollItems.ElementAt<RollItem>(e.Position).selected);
+        }
     }
 }

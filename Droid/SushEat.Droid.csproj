@@ -60,10 +60,16 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RestaurantCustomer.cs" />
+    <Compile Include="Rolls.cs" />
+    <Compile Include="Suace.cs" />
+    <Compile Include="Veg.cs" />
   </ItemGroup>
   <ItemGroup>
     <GoogleServicesJson Include="google-services.json" />
-    <None Include="app.config" />
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Connected Services\susheattableAzureStorage\ConnectedService.json" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Properties\AndroidManifest.xml">
@@ -74,12 +80,15 @@
     <AndroidResource Include="Resources\layout\operateMachine.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\SushiMenu.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
     <AndroidResource Include="Resources\layout\MainPage.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
+    <AndroidResource Include="Resources\layout\Menu.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Rolls.axml" />
+    <AndroidResource Include="Resources\layout\Veg.axml" />
+    <AndroidResource Include="Resources\layout\Sauce.axml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
@@ -95,11 +104,6 @@
     <AndroidResource Include="Resources\drawable\icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\list_item_selector.xml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\values\color.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
@@ -109,6 +113,16 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\drawable\Colored-vegetables-seamless-pattern-vector-01.jpg" />
+    <Content Include="Resources\drawable\Fresh_Vegetables.jpg" />
+    <AndroidResource Include="Resources\drawable\menu.jpg" />
+    <AndroidResource Include="Resources\drawable\newveg.jpg" />
+    <AndroidResource Include="Resources\drawable\rolls.jpg" />
+    <AndroidResource Include="Resources\drawable\sauce.jpg" />
+    <AndroidResource Include="Resources\drawable\sushi.jpg" />
+    <AndroidResource Include="Resources\drawable\veg.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
 </Project>

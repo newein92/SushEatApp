@@ -28,6 +28,10 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:label="Choose Category" android:name="md56dd882e6687e72a15a6eaa8f9900198e.RestaurantCustomer" />
+    <activity android:label="Choose Rolls" android:name="md56dd882e6687e72a15a6eaa8f9900198e.Rolls" />
+    <activity android:label="Choose Sauces" android:name="md56dd882e6687e72a15a6eaa8f9900198e.Sauce" />
+    <activity android:label="Choose Vegetables" android:name="md56dd882e6687e72a15a6eaa8f9900198e.Veg" />
     <activity android:label="Web Authenticator" android:name="md581ea35436e69ff6296ba639950f061de.FormAuthenticatorActivity" />
     <activity android:label="Web Authenticator" android:name="md581ea35436e69ff6296ba639950f061de.WebAuthenticatorActivity" />
     <receiver android:name="md581ea35436e69ff6296ba639950f061de.CustomTabsActionsBroadcastReceiver" />

@@ -10,6 +10,22 @@ SushEat.Droid.MainActivity, SushEat.Droid;md56dd882e6687e72a15a6eaa8f9900198e.Ma
 SushEat.Droid.MainActivity, SushEat.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56dd882e6687e72a15a6eaa8f9900198e.MainActivity
 SushEat.Droid.MainActivity;md56dd882e6687e72a15a6eaa8f9900198e.MainActivity
 susheat.droid.MainActivity;md56dd882e6687e72a15a6eaa8f9900198e.MainActivity
+SushEat.Droid.RestaurantCustomer, SushEat.Droid;md56dd882e6687e72a15a6eaa8f9900198e.RestaurantCustomer
+SushEat.Droid.RestaurantCustomer, SushEat.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56dd882e6687e72a15a6eaa8f9900198e.RestaurantCustomer
+SushEat.Droid.RestaurantCustomer;md56dd882e6687e72a15a6eaa8f9900198e.RestaurantCustomer
+susheat.droid.RestaurantCustomer;md56dd882e6687e72a15a6eaa8f9900198e.RestaurantCustomer
+SushEat.Droid.Rolls, SushEat.Droid;md56dd882e6687e72a15a6eaa8f9900198e.Rolls
+SushEat.Droid.Rolls, SushEat.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56dd882e6687e72a15a6eaa8f9900198e.Rolls
+SushEat.Droid.Rolls;md56dd882e6687e72a15a6eaa8f9900198e.Rolls
+susheat.droid.Rolls;md56dd882e6687e72a15a6eaa8f9900198e.Rolls
+SushEat.Droid.Sauce, SushEat.Droid;md56dd882e6687e72a15a6eaa8f9900198e.Sauce
+SushEat.Droid.Sauce, SushEat.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56dd882e6687e72a15a6eaa8f9900198e.Sauce
+SushEat.Droid.Sauce;md56dd882e6687e72a15a6eaa8f9900198e.Sauce
+susheat.droid.Sauce;md56dd882e6687e72a15a6eaa8f9900198e.Sauce
+SushEat.Droid.Veg, SushEat.Droid;md56dd882e6687e72a15a6eaa8f9900198e.Veg
+SushEat.Droid.Veg, SushEat.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56dd882e6687e72a15a6eaa8f9900198e.Veg
+SushEat.Droid.Veg;md56dd882e6687e72a15a6eaa8f9900198e.Veg
+susheat.droid.Veg;md56dd882e6687e72a15a6eaa8f9900198e.Veg
 Android.Support.CustomTabs.Chromium.SharedUtilities._MobileServices.CustomTabActivityHelper, Microsoft.Azure.Mobile.Client;md54c4b48a882a4c6b363ccb67bdb21d5b2.CustomTabActivityHelper
 Android.Support.CustomTabs.Chromium.SharedUtilities._MobileServices.CustomTabActivityHelper, Microsoft.Azure.Mobile.Client, Version=4.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35;md54c4b48a882a4c6b363ccb67bdb21d5b2.CustomTabActivityHelper
 Android.Support.CustomTabs.Chromium.SharedUtilities._MobileServices.CustomTabActivityHelper;md54c4b48a882a4c6b363ccb67bdb21d5b2.CustomTabActivityHelper

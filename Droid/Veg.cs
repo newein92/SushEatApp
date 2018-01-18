@@ -29,46 +29,41 @@ using System.Linq;
 namespace SushEat.Droid
 {
     [Activity(Label = "Choose Vegetables")]
-    public class Veg : Activity
+    public class Veg : RestaurantCustomer
     {
         ListView listvegs;
-        //private List<string> saucelist;
-
+        List<VegItem> selectedVegItems;
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Veg);
-
+            selectedVegItems = new List<VegItem>();
+            selectedVegItems.Insert(0, new VegItem("Cucumber", false));
+            selectedVegItems.Insert(1, new VegItem("Sweet Potato", false));
+            selectedVegItems.Insert(2, new VegItem("Chives", false));
+            selectedVegItems.Insert(3, new VegItem("Carrot", false));
+            selectedVegItems.Insert(4, new VegItem("Avocado", false));
+            selectedVegItems.Insert(5, new VegItem("Shitake Mushrooms", false));
             var veglist = new string[]
             {
                 "Cucumber","Sweet Potato","Chives","Carrot",
                 "Avocado","Shitake Mushrooms"
             };
-
-           // var OrderButton = FindViewById<Button>(Resource.Id.buttonorder);
-            //OrderButton.Click += OrderButton_Click;
-
             listvegs = FindViewById<ListView>(Resource.Id.listView1);
             listvegs.Adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItemMultipleChoice, veglist);
-            //listnames.Adapter = adapter;
             listvegs.ChoiceMode = ChoiceMode.Multiple;
-
-            //listnames.ItemClick += Listnames_ItemClick;
-        }
-
-        // private void Listnames_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
-        //{
-        //  Toast.MakeText(this, e.Position.ToString(), ToastLength.Long).Show();
-        //}
-       /* void OrderButton_Click(object sender, EventArgs e)
-        {
-            var builder = new StringBuilder();
-            var sparseArray = FindViewById<ListView>(Resource.Id.listView1).CheckedItemPositions;
-            for (var i = 0; i < sparseArray.Size(); i++)
+            Button vegOrder = FindViewById<Android.Widget.Button>(Resource.Id.vegOrder);
+            vegOrder.Click += delegate
             {
-                builder.AppendLine(string.Format("{0}={1}", sparseArray.KeyAt(i), sparseArray.ValueAt(i)));
-            }
-        }*/
+                customer.order.selectedVegItems = selectedVegItems;
+                Toast.MakeText(this, "The selected items were added to cart", ToastLength.Long).Show();
+            };
+            listvegs.ItemClick += listvegs_ItemClick;
+        }
+        void listvegs_ItemClick(object sender, AdapterView.ItemClickEventArgs e)
+        {
+            selectedVegItems.ElementAt<VegItem>(e.Position).selected = !(selectedVegItems.ElementAt<VegItem>(e.Position).selected);
+        }
 
     }
 }

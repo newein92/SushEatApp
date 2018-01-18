@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgroundimage">
+    <ImageView
+        android:src="@drawable/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="72dp"
+        android:layout_marginBottom="24dp"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:text="Welcome To SushEat!"
+        android:background="@android:drawable/dialog_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcomeMessage"
+        android:textAlignment="center" />
+    <TextView
+        android:text="Please select type of user:"
+        android:background="@android:drawable/dialog_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcomeMessage1"
+        android:textAlignment="center" />
+    <Button
+        android:text="Private User"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/PrivateUser" />
+    <Button
+        android:text="Restaurant Customer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RestaurantCustomer" />
+    <Button
+        android:text="Restaurant Chef"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RestaurantChef" />
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="94.6dp"
+        android:rowCount="2"
+        android:columnCount="3"
+        android:id="@+id/gridLayout2" />
+</LinearLayout>
