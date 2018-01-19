@@ -56,10 +56,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MyFirebaseIIDService.cs" />
+    <Compile Include="processOrdes.cs" />
     <Compile Include="PrivateUser.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RestaurantChef.cs" />
     <Compile Include="RestaurantCustomer.cs" />
     <Compile Include="Rolls.cs" />
     <Compile Include="Suace.cs" />
@@ -89,6 +91,10 @@
     <AndroidResource Include="Resources\layout\Rolls.axml" />
     <AndroidResource Include="Resources\layout\Veg.axml" />
     <AndroidResource Include="Resources\layout\Sauce.axml" />
+    <AndroidResource Include="Resources\layout\incomingOrders.axml" />
+    <AndroidResource Include="Resources\layout\processOrder.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-hdpi\icon.png" />

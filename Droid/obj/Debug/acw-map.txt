@@ -2,6 +2,10 @@ SushEat.Droid.MyFirebaseIIDService, SushEat.Droid;md56dd882e6687e72a15a6eaa8f990
 SushEat.Droid.MyFirebaseIIDService, SushEat.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56dd882e6687e72a15a6eaa8f9900198e.MyFirebaseIIDService
 SushEat.Droid.MyFirebaseIIDService;md56dd882e6687e72a15a6eaa8f9900198e.MyFirebaseIIDService
 susheat.droid.MyFirebaseIIDService;md56dd882e6687e72a15a6eaa8f9900198e.MyFirebaseIIDService
+SushEat.Droid.processOrder, SushEat.Droid;md56dd882e6687e72a15a6eaa8f9900198e.processOrder
+SushEat.Droid.processOrder, SushEat.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56dd882e6687e72a15a6eaa8f9900198e.processOrder
+SushEat.Droid.processOrder;md56dd882e6687e72a15a6eaa8f9900198e.processOrder
+susheat.droid.processOrder;md56dd882e6687e72a15a6eaa8f9900198e.processOrder
 SushEat.Droid.PrivateUser, SushEat.Droid;md56dd882e6687e72a15a6eaa8f9900198e.PrivateUser
 SushEat.Droid.PrivateUser, SushEat.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56dd882e6687e72a15a6eaa8f9900198e.PrivateUser
 SushEat.Droid.PrivateUser;md56dd882e6687e72a15a6eaa8f9900198e.PrivateUser
@@ -10,6 +14,10 @@ SushEat.Droid.MainActivity, SushEat.Droid;md56dd882e6687e72a15a6eaa8f9900198e.Ma
 SushEat.Droid.MainActivity, SushEat.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56dd882e6687e72a15a6eaa8f9900198e.MainActivity
 SushEat.Droid.MainActivity;md56dd882e6687e72a15a6eaa8f9900198e.MainActivity
 susheat.droid.MainActivity;md56dd882e6687e72a15a6eaa8f9900198e.MainActivity
+SushEat.Droid.RestaurantChef, SushEat.Droid;md56dd882e6687e72a15a6eaa8f9900198e.RestaurantChef
+SushEat.Droid.RestaurantChef, SushEat.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56dd882e6687e72a15a6eaa8f9900198e.RestaurantChef
+SushEat.Droid.RestaurantChef;md56dd882e6687e72a15a6eaa8f9900198e.RestaurantChef
+susheat.droid.RestaurantChef;md56dd882e6687e72a15a6eaa8f9900198e.RestaurantChef
 SushEat.Droid.RestaurantCustomer, SushEat.Droid;md56dd882e6687e72a15a6eaa8f9900198e.RestaurantCustomer
 SushEat.Droid.RestaurantCustomer, SushEat.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56dd882e6687e72a15a6eaa8f9900198e.RestaurantCustomer
 SushEat.Droid.RestaurantCustomer;md56dd882e6687e72a15a6eaa8f9900198e.RestaurantCustomer

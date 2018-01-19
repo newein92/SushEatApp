@@ -21,6 +21,7 @@
         <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
       </intent-filter>
     </service>
+    <activity android:label="Process Order" android:name="md56dd882e6687e72a15a6eaa8f9900198e.processOrder" />
     <activity android:label="Make your own Sushi" android:name="md56dd882e6687e72a15a6eaa8f9900198e.PrivateUser" />
     <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="SushEat" android:theme="@android:style/Theme.DeviceDefault" android:name="md56dd882e6687e72a15a6eaa8f9900198e.MainActivity">
       <intent-filter>
@@ -28,6 +29,7 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
+    <activity android:label="Incoming orders" android:name="md56dd882e6687e72a15a6eaa8f9900198e.RestaurantChef" />
     <activity android:label="Choose Category" android:name="md56dd882e6687e72a15a6eaa8f9900198e.RestaurantCustomer" />
     <activity android:label="Choose Rolls" android:name="md56dd882e6687e72a15a6eaa8f9900198e.Rolls" />
     <activity android:label="Choose Sauces" android:name="md56dd882e6687e72a15a6eaa8f9900198e.Sauce" />

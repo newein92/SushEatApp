@@ -35,29 +35,18 @@ namespace SushEat.Droid
     {
         public static Customer customer = new Customer();
 
-        protected override void OnCreate(Bundle savedInstanceState)
+        protected override async void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Menu);
+            // Create the table if it doesn't exist.
+            await table.CreateIfNotExistsAsync();
             var fullName = FindViewById<EditText>(Resource.Id.fullName);
             var email = FindViewById<EditText>(Resource.Id.email);
             Button Veg = FindViewById<Android.Widget.Button>(Resource.Id.Veg);
             Button Sauce = FindViewById<Android.Widget.Button>(Resource.Id.Sauce);
             Button Rolls = FindViewById<Android.Widget.Button>(Resource.Id.Rolls);
-            Button Debug = FindViewById<Android.Widget.Button>(Resource.Id.Debug);
             Button sendOrder = FindViewById<Android.Widget.Button>(Resource.Id.sendOrder);
-
-            // Retrieve the storage account from the connection string.
-            CloudStorageAccount storageAccount = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=susheattable;AccountKey=JnYEen+TGNIkA722hAMJTMfo+qNT3flVGDVScX158B3GckOPN+dtUOfWU2not3cjRPuqI4fQyhFq8wx/GY0I2g==;EndpointSuffix=core.windows.net");
-            // Create the table client.
-            CloudTableClient tableClient = storageAccount.CreateCloudTableClient();
-
-            // Create the CloudTable object that represents the "people" table.
-            CloudTable table = tableClient.GetTableReference("Customers");
-
-            // Create the table if it doesn't exist.
-            table.CreateIfNotExistsAsync();
-
 
             Veg.Click += delegate
             {
@@ -75,68 +64,51 @@ namespace SushEat.Droid
                 var intent = new Intent(this, typeof(Rolls));
                 StartActivity(intent);
             };
-            Debug.Click += async delegate
-            {
-                /*Console.WriteLine(customer.fullName);
-                Console.WriteLine(customer.email);
-                Console.WriteLine("Selected vegs:");
-                for (int i = 0; i < 6; i++)
-                {
-                    if (customer.order.selectedVegItems.ElementAt<VegItem>(i).selected)
-                    {
-                        Console.WriteLine(customer.order.selectedVegItems.ElementAt<VegItem>(i).item);
-                    }
-                    
-                }
-                Console.WriteLine("Selected Sauces:");
-                for (int i = 0; i < 7; i++)
-                {
-                    if (customer.order.selectedSauceItems.ElementAt<SauceItem>(i).selected)
-                    {
-                        Console.WriteLine(customer.order.selectedSauceItems.ElementAt<SauceItem>(i).item);
-                    }
-
-                }
-                Console.WriteLine("Selected Rolls:");
-                for (int i = 0; i < 3; i++)
-                {
-                    if (customer.order.selectedRollItems.ElementAt<RollItem>(i).selected)
-                    {
-                        Console.WriteLine(customer.order.selectedRollItems.ElementAt<RollItem>(i).item);
-                    }
-
-                }*/
-
-
-                /*
-                // Create a retrieve operation that takes a customer entity.
-                TableOperation retrieveOperation = TableOperation.Retrieve<Customer>("Email", "Full name");
-
-                // Execute the retrieve operation.
-                TableResult retrievedResult = await table.ExecuteAsync(retrieveOperation);
-
-
-
-                // Print the phone number of the result.
-                if (retrievedResult.Result != null)
-                {
-                    Console.WriteLine(((Customer)retrievedResult.Result).email);
-                }
-                else
-                {
-                    Console.WriteLine("The email could not be retrieved.");
-                }*/
-            };
-            sendOrder.Click += delegate
+            
+            sendOrder.Click += async delegate
             {
                 customer.fullName = fullName.Text;
                 customer.email = email.Text;
-                customer.RowKey = email.Text;
+
+                String vegs = "Vegetables: ";
+                foreach (VegItem veg in customer.order.selectedVegItems)
+                {
+                    if (veg.selected)
+                    {
+                        vegs += (veg.item + ", ");
+                    }
+                }
+                if (vegs.LastIndexOf(',') > -1) vegs.Remove(vegs.LastIndexOf(','), 1);
+
+                String sauces = "Sauces: ";
+                foreach (SauceItem sauce in customer.order.selectedSauceItems)
+                {
+                    if (sauce.selected)
+                    {
+                        sauces += (sauce.item + ", ");
+                    }
+                }
+                if (sauces.LastIndexOf(',') > -1) sauces.Remove(sauces.LastIndexOf(','), 1);
+
+                String rolls = "Rolls: ";
+                foreach (RollItem roll in customer.order.selectedRollItems)
+                {
+                    if (roll.selected)
+                    {
+                        rolls += (roll.item + ", ");
+                    }
+                }
+                if (rolls.LastIndexOf(',') > -1) rolls.Remove(rolls.LastIndexOf(','), 1);
+
+
+
+                customer.Sorder = "Customer: " + customer.fullName + "\n" + vegs + "\n" + sauces + "\n" + rolls;
+                customer.RowKey = customer.email;
                 customer.PartitionKey = "ORDERED";
                 // Create the TableOperation object that inserts the customer entity.
                 TableOperation insertOperation = TableOperation.Insert(customer);
                 // Execute the insert operation.
-                table.ExecuteAsync(insertOperation);
+                await table.ExecuteAsync(insertOperation);
             };
         }
     }

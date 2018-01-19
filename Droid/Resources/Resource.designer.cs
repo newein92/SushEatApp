@@ -434,9 +434,6 @@ namespace SushEat.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0b001f
-			public const int Debug = 2131427359;
-			
 			// aapt resource value: 0x7f0b0018
 			public const int PrivateUser = 2131427352;
 			
@@ -455,23 +452,23 @@ namespace SushEat.Droid
 			// aapt resource value: 0x7f0b001c
 			public const int Veg = 2131427356;
 			
-			// aapt resource value: 0x7f0b0026
-			public const int action0 = 2131427366;
+			// aapt resource value: 0x7f0b0025
+			public const int action0 = 2131427365;
+			
+			// aapt resource value: 0x7f0b0022
+			public const int action_container = 2131427362;
+			
+			// aapt resource value: 0x7f0b0029
+			public const int action_divider = 2131427369;
 			
 			// aapt resource value: 0x7f0b0023
-			public const int action_container = 2131427363;
-			
-			// aapt resource value: 0x7f0b002a
-			public const int action_divider = 2131427370;
+			public const int action_image = 2131427363;
 			
 			// aapt resource value: 0x7f0b0024
-			public const int action_image = 2131427364;
+			public const int action_text = 2131427364;
 			
-			// aapt resource value: 0x7f0b0025
-			public const int action_text = 2131427365;
-			
-			// aapt resource value: 0x7f0b0034
-			public const int actions = 2131427380;
+			// aapt resource value: 0x7f0b0033
+			public const int actions = 2131427379;
 			
 			// aapt resource value: 0x7f0b0005
 			public const int adjust_height = 2131427333;
@@ -488,53 +485,56 @@ namespace SushEat.Droid
 			// aapt resource value: 0x7f0b000f
 			public const int blocking = 2131427343;
 			
-			// aapt resource value: 0x7f0b0038
-			public const int button1 = 2131427384;
+			// aapt resource value: 0x7f0b0037
+			public const int button1 = 2131427383;
 			
-			// aapt resource value: 0x7f0b0039
-			public const int button2 = 2131427385;
+			// aapt resource value: 0x7f0b0038
+			public const int button2 = 2131427384;
+			
+			// aapt resource value: 0x7f0b003a
+			public const int button3 = 2131427386;
 			
 			// aapt resource value: 0x7f0b003b
-			public const int button3 = 2131427387;
+			public const int button4 = 2131427387;
 			
-			// aapt resource value: 0x7f0b003c
-			public const int button4 = 2131427388;
+			// aapt resource value: 0x7f0b003d
+			public const int button5 = 2131427389;
 			
-			// aapt resource value: 0x7f0b0027
-			public const int cancel_action = 2131427367;
+			// aapt resource value: 0x7f0b0026
+			public const int cancel_action = 2131427366;
 			
-			// aapt resource value: 0x7f0b002f
-			public const int chronometer = 2131427375;
+			// aapt resource value: 0x7f0b002e
+			public const int chronometer = 2131427374;
 			
 			// aapt resource value: 0x7f0b000c
 			public const int dark = 2131427340;
 			
-			// aapt resource value: 0x7f0b0021
-			public const int email = 2131427361;
+			// aapt resource value: 0x7f0b0020
+			public const int email = 2131427360;
 			
-			// aapt resource value: 0x7f0b0036
-			public const int end_padder = 2131427382;
+			// aapt resource value: 0x7f0b0035
+			public const int end_padder = 2131427381;
 			
 			// aapt resource value: 0x7f0b0010
 			public const int forever = 2131427344;
 			
-			// aapt resource value: 0x7f0b0020
-			public const int fullName = 2131427360;
+			// aapt resource value: 0x7f0b001f
+			public const int fullName = 2131427359;
 			
 			// aapt resource value: 0x7f0b001b
 			public const int gridLayout2 = 2131427355;
 			
-			// aapt resource value: 0x7f0b0031
-			public const int icon = 2131427377;
+			// aapt resource value: 0x7f0b0030
+			public const int icon = 2131427376;
 			
-			// aapt resource value: 0x7f0b0035
-			public const int icon_group = 2131427381;
+			// aapt resource value: 0x7f0b0034
+			public const int icon_group = 2131427380;
 			
 			// aapt resource value: 0x7f0b0008
 			public const int icon_only = 2131427336;
 			
-			// aapt resource value: 0x7f0b0030
-			public const int info = 2131427376;
+			// aapt resource value: 0x7f0b002f
+			public const int info = 2131427375;
 			
 			// aapt resource value: 0x7f0b0011
 			public const int italic = 2131427345;
@@ -548,11 +548,11 @@ namespace SushEat.Droid
 			// aapt resource value: 0x7f0b0001
 			public const int line3 = 2131427329;
 			
-			// aapt resource value: 0x7f0b0015
-			public const int listView1 = 2131427349;
+			// aapt resource value: 0x7f0b0016
+			public const int listView1 = 2131427350;
 			
-			// aapt resource value: 0x7f0b0029
-			public const int media_actions = 2131427369;
+			// aapt resource value: 0x7f0b0028
+			public const int media_actions = 2131427368;
 			
 			// aapt resource value: 0x7f0b0007
 			public const int none = 2131427335;
@@ -560,20 +560,20 @@ namespace SushEat.Droid
 			// aapt resource value: 0x7f0b0012
 			public const int normal = 2131427346;
 			
-			// aapt resource value: 0x7f0b0033
-			public const int notification_background = 2131427379;
-			
-			// aapt resource value: 0x7f0b002c
-			public const int notification_main_column = 2131427372;
+			// aapt resource value: 0x7f0b0032
+			public const int notification_background = 2131427378;
 			
 			// aapt resource value: 0x7f0b002b
-			public const int notification_main_column_container = 2131427371;
+			public const int notification_main_column = 2131427371;
 			
-			// aapt resource value: 0x7f0b0032
-			public const int right_icon = 2131427378;
+			// aapt resource value: 0x7f0b002a
+			public const int notification_main_column_container = 2131427370;
 			
-			// aapt resource value: 0x7f0b002d
-			public const int right_side = 2131427373;
+			// aapt resource value: 0x7f0b0031
+			public const int right_icon = 2131427377;
+			
+			// aapt resource value: 0x7f0b002c
+			public const int right_side = 2131427372;
 			
 			// aapt resource value: 0x7f0b003e
 			public const int rollOrder = 2131427390;
@@ -581,14 +581,14 @@ namespace SushEat.Droid
 			// aapt resource value: 0x7f0b003f
 			public const int sauceOrder = 2131427391;
 			
-			// aapt resource value: 0x7f0b0022
-			public const int sendOrder = 2131427362;
+			// aapt resource value: 0x7f0b0021
+			public const int sendOrder = 2131427361;
 			
 			// aapt resource value: 0x7f0b0009
 			public const int standard = 2131427337;
 			
-			// aapt resource value: 0x7f0b0028
-			public const int status_bar_latest_event_content = 2131427368;
+			// aapt resource value: 0x7f0b0027
+			public const int status_bar_latest_event_content = 2131427367;
 			
 			// aapt resource value: 0x7f0b0002
 			public const int text = 2131427330;
@@ -596,17 +596,17 @@ namespace SushEat.Droid
 			// aapt resource value: 0x7f0b0003
 			public const int text2 = 2131427331;
 			
-			// aapt resource value: 0x7f0b0037
-			public const int textView1 = 2131427383;
+			// aapt resource value: 0x7f0b0036
+			public const int textView1 = 2131427382;
 			
-			// aapt resource value: 0x7f0b003a
-			public const int textView2 = 2131427386;
+			// aapt resource value: 0x7f0b0039
+			public const int textView2 = 2131427385;
 			
-			// aapt resource value: 0x7f0b003d
-			public const int textView3 = 2131427389;
+			// aapt resource value: 0x7f0b003c
+			public const int textView3 = 2131427388;
 			
-			// aapt resource value: 0x7f0b002e
-			public const int time = 2131427374;
+			// aapt resource value: 0x7f0b002d
+			public const int time = 2131427373;
 			
 			// aapt resource value: 0x7f0b0004
 			public const int title = 2131427332;
@@ -617,8 +617,8 @@ namespace SushEat.Droid
 			// aapt resource value: 0x7f0b0013
 			public const int webview = 2131427347;
 			
-			// aapt resource value: 0x7f0b0016
-			public const int welcomeMessage = 2131427350;
+			// aapt resource value: 0x7f0b0015
+			public const int welcomeMessage = 2131427349;
 			
 			// aapt resource value: 0x7f0b0017
 			public const int welcomeMessage1 = 2131427351;
@@ -722,13 +722,16 @@ namespace SushEat.Droid
 			public const int operateMachine = 2130903059;
 			
 			// aapt resource value: 0x7f030014
-			public const int Rolls = 2130903060;
+			public const int processOrder = 2130903060;
 			
 			// aapt resource value: 0x7f030015
-			public const int Sauce = 2130903061;
+			public const int Rolls = 2130903061;
 			
 			// aapt resource value: 0x7f030016
-			public const int Veg = 2130903062;
+			public const int Sauce = 2130903062;
+			
+			// aapt resource value: 0x7f030017
+			public const int Veg = 2130903063;
 			
 			static Layout()
 			{
