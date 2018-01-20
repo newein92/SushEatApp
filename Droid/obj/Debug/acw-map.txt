@@ -14,10 +14,6 @@ SushEat.Droid.MainActivity, SushEat.Droid;md56dd882e6687e72a15a6eaa8f9900198e.Ma
 SushEat.Droid.MainActivity, SushEat.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56dd882e6687e72a15a6eaa8f9900198e.MainActivity
 SushEat.Droid.MainActivity;md56dd882e6687e72a15a6eaa8f9900198e.MainActivity
 susheat.droid.MainActivity;md56dd882e6687e72a15a6eaa8f9900198e.MainActivity
-SushEat.Droid.CustomerWrapper, SushEat.Droid;md56dd882e6687e72a15a6eaa8f9900198e.CustomerWrapper
-SushEat.Droid.CustomerWrapper, SushEat.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56dd882e6687e72a15a6eaa8f9900198e.CustomerWrapper
-SushEat.Droid.CustomerWrapper;md56dd882e6687e72a15a6eaa8f9900198e.CustomerWrapper
-susheat.droid.CustomerWrapper;md56dd882e6687e72a15a6eaa8f9900198e.CustomerWrapper
 SushEat.Droid.RestaurantChef, SushEat.Droid;md56dd882e6687e72a15a6eaa8f9900198e.RestaurantChef
 SushEat.Droid.RestaurantChef, SushEat.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56dd882e6687e72a15a6eaa8f9900198e.RestaurantChef
 SushEat.Droid.RestaurantChef;md56dd882e6687e72a15a6eaa8f9900198e.RestaurantChef

@@ -132,6 +132,7 @@ namespace SushEat.Droid
                 {
                     Toast.MakeText(this, e.Message, ToastLength.Long).Show();
                 }
+                customer = new Customer();
                 Toast.MakeText(this, "The order has been sent", ToastLength.Long).Show();
             };
         }
