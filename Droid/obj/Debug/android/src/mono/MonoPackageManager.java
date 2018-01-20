@@ -144,6 +144,7 @@ class MonoPackageManager_Resources {
 		"Xamarin.Android.Support.v7.MediaRouter.dll",
 		"Xamarin.Android.Support.v7.RecyclerView.dll",
 		"Xamarin.Android.Support.Vector.Drawable.dll",
+		"Xamarin.Azure.NotificationHubs.Android.dll",
 		"Xamarin.Firebase.Common.dll",
 		"Xamarin.Firebase.Iid.dll",
 		"Xamarin.Firebase.Messaging.dll",

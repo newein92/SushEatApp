@@ -10,6 +10,7 @@
     "Xamarin.Android.Support.v7.CardView": "23.3.0",
     "Xamarin.Android.Support.v7.MediaRouter": "23.3.0",
     "Xamarin.Android.Support.Vector.Drawable": "23.3.0",
+    "Xamarin.Azure.NotificationHubs.Android": "0.4.0",
     "Xamarin.Firebase.Messaging": "60.1142.0",
     "Xamarin.Forms": "2.3.4.247",
     "Xamarin.GooglePlayServices.Base": "60.1142.0"

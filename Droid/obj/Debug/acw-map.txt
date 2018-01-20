@@ -2,6 +2,10 @@ SushEat.Droid.MyFirebaseIIDService, SushEat.Droid;md56dd882e6687e72a15a6eaa8f990
 SushEat.Droid.MyFirebaseIIDService, SushEat.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56dd882e6687e72a15a6eaa8f9900198e.MyFirebaseIIDService
 SushEat.Droid.MyFirebaseIIDService;md56dd882e6687e72a15a6eaa8f9900198e.MyFirebaseIIDService
 susheat.droid.MyFirebaseIIDService;md56dd882e6687e72a15a6eaa8f9900198e.MyFirebaseIIDService
+SushEat.Droid.MyFirebaseMessagingService, SushEat.Droid;md56dd882e6687e72a15a6eaa8f9900198e.MyFirebaseMessagingService
+SushEat.Droid.MyFirebaseMessagingService, SushEat.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56dd882e6687e72a15a6eaa8f9900198e.MyFirebaseMessagingService
+SushEat.Droid.MyFirebaseMessagingService;md56dd882e6687e72a15a6eaa8f9900198e.MyFirebaseMessagingService
+susheat.droid.MyFirebaseMessagingService;md56dd882e6687e72a15a6eaa8f9900198e.MyFirebaseMessagingService
 SushEat.Droid.processOrder, SushEat.Droid;md56dd882e6687e72a15a6eaa8f9900198e.processOrder
 SushEat.Droid.processOrder, SushEat.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md56dd882e6687e72a15a6eaa8f9900198e.processOrder
 SushEat.Droid.processOrder;md56dd882e6687e72a15a6eaa8f9900198e.processOrder

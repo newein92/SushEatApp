@@ -46,6 +46,7 @@ C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure
 C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.MediaRouter.dll
 C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
 C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\android\assets\Xamarin.Azure.NotificationHubs.Android.dll
 C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\android\assets\Xamarin.Firebase.Common.dll
 C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\android\assets\Xamarin.Firebase.Iid.dll
 C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\android\assets\Xamarin.Firebase.Messaging.dll

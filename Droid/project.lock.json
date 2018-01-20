@@ -1037,6 +1037,15 @@
           "build/Xamarin.Android.Support.Vector.Drawable.targets": {}
         }
       },
+      "Xamarin.Azure.NotificationHubs.Android/0.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/MonoAndroid403/Xamarin.Azure.NotificationHubs.Android.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid403/Xamarin.Azure.NotificationHubs.Android.dll": {}
+        }
+      },
       "Xamarin.Build.Download/0.4.7": {
         "type": "package",
         "build": {
@@ -4415,6 +4424,16 @@
         "xamarin.android.support.vector.drawable.nuspec"
       ]
     },
+    "Xamarin.Azure.NotificationHubs.Android/0.4.0": {
+      "sha512": "5F4vD3RLGXrxGpIpno+T+rlg6YWXz73c5/FcIBvDL3wv24mGEO1l6EMY8N0QMfdz+hQf/U1f3d899wdlABrf/A==",
+      "type": "package",
+      "path": "xamarin.azure.notificationhubs.android/0.4.0",
+      "files": [
+        "lib/MonoAndroid403/Xamarin.Azure.NotificationHubs.Android.dll",
+        "xamarin.azure.notificationhubs.android.0.4.0.nupkg.sha512",
+        "xamarin.azure.notificationhubs.android.nuspec"
+      ]
+    },
     "Xamarin.Build.Download/0.4.7": {
       "sha512": "bn7kFhBx0olu+TNh3GhGDD3fELAjlIFMQkyJuQAWpTIk14Ug9NHwHlHjOryN4BbBOaAAX3b5MqhU+hSfDXXguA==",
       "type": "package",
@@ -4669,6 +4688,7 @@
       "Xamarin.Android.Support.v7.AppCompat >= 23.3.0",
       "Xamarin.Android.Support.v7.CardView >= 23.3.0",
       "Xamarin.Android.Support.v7.MediaRouter >= 23.3.0",
+      "Xamarin.Azure.NotificationHubs.Android >= 0.4.0",
       "Xamarin.Firebase.Messaging >= 60.1142.0",
       "Xamarin.Forms >= 2.3.4.247",
       "Xamarin.GooglePlayServices.Base >= 60.1142.0"
@@ -4712,6 +4732,7 @@
       "Xamarin.Android.Support.v7.AppCompat": "[23.3.0, )",
       "Xamarin.Android.Support.v7.CardView": "[23.3.0, )",
       "Xamarin.Android.Support.v7.MediaRouter": "[23.3.0, )",
+      "Xamarin.Azure.NotificationHubs.Android": "[0.4.0, )",
       "Xamarin.Firebase.Messaging": "[60.1142.0, )",
       "Xamarin.Forms": "[2.3.4.247, )",
       "Xamarin.GooglePlayServices.Base": "[60.1142.0, )"

@@ -7,6 +7,7 @@ using Android.OS;
 using Android.Bluetooth;
 using System.Linq;
 using Microsoft.WindowsAzure.Storage.Table; // Namespace for Table storage types
+using Android.Util;
 
 namespace SushEat.Droid
 {
@@ -18,11 +19,24 @@ namespace SushEat.Droid
     public class MainActivity : Activity
     {
         public static bool newCustomerActivity = false;
+        
+        public const string TAG = "MainActivity";
 
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.MainPage);
+            if (Intent.Extras != null)
+            {
+                foreach (var key in Intent.Extras.KeySet())
+                {
+                    if (key != null)
+                    {
+                        var value = Intent.Extras.GetString(key);
+                        Log.Debug(TAG, "Key: {0} Value: {1}", key, value);
+                    }
+                }
+            }
             Button PrivateUser = FindViewById<Android.Widget.Button>(Resource.Id.PrivateUser);
             Button RestaurantCustomer = FindViewById<Android.Widget.Button>(Resource.Id.RestaurantCustomer);
             Button RestaurantChef = FindViewById<Android.Widget.Button>(Resource.Id.RestaurantChef);
@@ -31,17 +45,20 @@ namespace SushEat.Droid
             {
                 newCustomerActivity = true;
                 var intent = new Intent(this, typeof(RestaurantCustomer));
+                this.Finish();
                 StartActivity(intent);
 
             };
             PrivateUser.Click += delegate
             {
                 var intent = new Intent(this, typeof(PrivateUser));
+                this.Finish();
                 StartActivity(intent);
             };
             RestaurantChef.Click += delegate
             {
                 var intent = new Intent(this, typeof(RestaurantChef));
+                this.Finish();
                 StartActivity(intent);
             };
         }

@@ -52,7 +52,8 @@ namespace SushEat.Droid
                     }
                     catch (Exception e)
                     {
-                        Toast.MakeText(this, e.Message, ToastLength.Long).Show();
+                        //Toast.MakeText(this, e.Message, ToastLength.Long).Show();
+                        Console.WriteLine(e.Message);
                     }
 
 
@@ -66,7 +67,8 @@ namespace SushEat.Droid
                     }
                     catch (Exception e)
                     {
-                        Toast.MakeText(this, e.Message, ToastLength.Long).Show();
+                        //Toast.MakeText(this, e.Message, ToastLength.Long).Show();
+                        Console.WriteLine(e.Message);
                     }
 
 

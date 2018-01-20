@@ -137,11 +137,7 @@ namespace SushEat.Droid
             };
         }
 
-        /*public override Java.Lang.Object OnRetainNonConfigurationInstance()
-        {
-            base.OnRetainNonConfigurationInstance();
-            return customer;
-        }*/
+       
 
     }
 

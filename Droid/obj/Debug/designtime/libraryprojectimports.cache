@@ -12,12 +12,13 @@
     <Jar>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\30\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\31\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\32\jl\bin\classes.jar</Jar>
-    <Jar>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\38\jl\classes.jar</Jar>
+    <Jar>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\38\jl\bin\classes.jar</Jar>
     <Jar>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\39\jl\classes.jar</Jar>
     <Jar>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\40\jl\classes.jar</Jar>
-    <Jar>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\45\jl\classes.jar</Jar>
+    <Jar>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\41\jl\classes.jar</Jar>
     <Jar>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\46\jl\classes.jar</Jar>
     <Jar>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\47\jl\classes.jar</Jar>
+    <Jar>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\48\jl\classes.jar</Jar>
   </Jars>
   <ResolvedResourceDirectories>
     <ResolvedResourceDirectory>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\1\jl\res</ResolvedResourceDirectory>
@@ -28,11 +29,12 @@
     <ResolvedResourceDirectory>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\25\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\31\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\32\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\40\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\42\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\38\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\41\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\43\jl\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\45\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\44\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\46\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\47\jl\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj\Debug\lp\1\jl\assets</ResolvedAssetDirectory>
@@ -41,8 +43,9 @@
     <ResolvedAssetDirectory>obj\Debug\lp\10\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\lp\16\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\lp\32\jl\assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj\Debug\lp\42\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\lp\38\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\lp\43\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\lp\44\jl\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
@@ -54,10 +57,11 @@
     <ResolvedResourceDirectoryStamp>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\25.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\31.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\32.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\40.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\42.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\38.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\41.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\43.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\45.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\44.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\46.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\lp\47.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

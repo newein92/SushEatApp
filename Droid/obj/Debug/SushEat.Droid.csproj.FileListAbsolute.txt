@@ -19,13 +19,6 @@ C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure
 C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\XbdMerge\Xamarin.Firebase.Common.dll.stamp
 C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\XbdMerge\Xamarin.Firebase.Iid.dll.stamp
 C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\XbdMerge\Xamarin.Firebase.Messaging.dll.stamp
-C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\XbdMerge\proguard\dc663e480.txt
-C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\XbdMerge\dc663e48.proguard.stamp
-C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\XbdMerge\0757626b.proguard.stamp
-C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\XbdMerge\2f4d086a.proguard.stamp
-C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\XbdMerge\1f4fd9cc.proguard.stamp
-C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\XbdMerge\d9f2c52f.proguard.stamp
-C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\XbdMerge\04db0838.proguard.stamp
 C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\googsvcsjson\values\goog_svcs_json.xml
 C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\SushEat.Droid.csproj.CoreCompileInputs.cache
 C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\SushEat.Droid.dll
@@ -54,6 +47,28 @@ C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure
 C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\res\drawable\veg.jpg
 C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\R.cs.flag
 C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\uploadflags.txt
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\bin\Debug\FormsViewGroup.dll.mdb
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\bin\Debug\Microsoft.WindowsAzure.Storage.dll.mdb
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\bin\Debug\MvvmCross.Platform.dll.mdb
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\bin\Debug\MvvmCross.Plugins.BLE.dll.mdb
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\bin\Debug\MvvmCross.Plugins.BLE.Droid.dll.mdb
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\bin\Debug\Plugin.BLE.Abstractions.dll.mdb
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\bin\Debug\Plugin.BLE.dll.mdb
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\bin\Debug\SushEat.Droid.dll.mdb
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\bin\Debug\Xamarin.Forms.Core.dll.mdb
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\android\assets\Microsoft.WindowsAzure.Storage.dll.mdb
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\android\assets\MvvmCross.Platform.dll.mdb
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\android\assets\MvvmCross.Plugins.BLE.dll.mdb
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\android\assets\MvvmCross.Plugins.BLE.Droid.dll.mdb
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\android\assets\Plugin.BLE.Abstractions.dll.mdb
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\android\assets\Plugin.BLE.dll.mdb
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\android\assets\SushEat.Droid.dll.mdb
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
 C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\bin\Debug\SushEat.Droid.dll
 bin\Debug\FormsViewGroup.dll.mdb
 bin\Debug\Microsoft.WindowsAzure.Storage.dll.mdb

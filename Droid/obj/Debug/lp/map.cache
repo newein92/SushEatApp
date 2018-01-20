@@ -36,6 +36,7 @@ Xamarin.Android.Support.v7.CardView
 Xamarin.Android.Support.v7.MediaRouter
 Xamarin.Android.Support.v7.RecyclerView
 Xamarin.Android.Support.Vector.Drawable
+Xamarin.Azure.NotificationHubs.Android
 Xamarin.Firebase.Common
 Xamarin.Firebase.Iid
 Xamarin.Firebase.Messaging
