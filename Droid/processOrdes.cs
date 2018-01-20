@@ -1,30 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-
 using Android.App;
-using Android.Content;
 using Android.OS;
-using Android.Runtime;
-using Android.Views;
 using Android.Widget;
-using System;
-
-using Android.App;
-using Android.Content;
-using Android.Content.PM;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
-using Android.OS;
 using Android.Bluetooth;
-
-//using Microsoft.WindowsAzure.MobileServices;
-
-//using Xamarin.Forms;
-//using Xamarin.Forms.Platform.Android;
-using System.Linq;
 using Microsoft.WindowsAzure.Storage; // Namespace for CloudStorageAccount
 using Microsoft.WindowsAzure.Storage.Table; // Namespace for Table storage types
 
@@ -37,8 +16,7 @@ namespace SushEat.Droid
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.processOrder);
-            // Create the table if it doesn't exist.
-            await table.CreateIfNotExistsAsync();
+            
 
             BluetoothConnection myConnection = new BluetoothConnection();
             Button buttonConnect = FindViewById<Android.Widget.Button>(Resource.Id.button1);
@@ -51,23 +29,53 @@ namespace SushEat.Droid
             System.Threading.Thread listenThread = new System.Threading.Thread(listener);
             listenThread.Abort();
 
+            // Retrieve the storage account from the connection string.
+            CloudStorageAccount storageAccount = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=susheattable;AccountKey=JnYEen+TGNIkA722hAMJTMfo+qNT3flVGDVScX158B3GckOPN+dtUOfWU2not3cjRPuqI4fQyhFq8wx/GY0I2g==;EndpointSuffix=core.windows.net");
+            // Create the table client.
+            CloudTableClient tableClient = storageAccount.CreateCloudTableClient();
+
+            // Create the CloudTable object that represents the "people" table.
+            CloudTable table = tableClient.GetTableReference("Customers");
+
+            // Create the table if it doesn't exist.
+            await table.CreateIfNotExistsAsync();
+
             markOrderProcessed.Click += async delegate
             {
                 if (currentOrder > -1)
                 {
                     Customer deleteEntity = customerList.ElementAt<Customer>(currentOrder);
                     TableOperation deleteOperation = TableOperation.Delete(deleteEntity);
-                    await table.ExecuteAsync(deleteOperation);
+                    try
+                    {
+                        await table.ExecuteAsync(deleteOperation);
+                    }
+                    catch (Exception e)
+                    {
+                        Toast.MakeText(this, e.Message, ToastLength.Long).Show();
+                    }
 
-                    Customer temp = customerList.ElementAt<Customer>(currentOrder);
-                    temp.PartitionKey = "PROCESSED";
+
+                    Customer insertEntity = customerList.ElementAt<Customer>(currentOrder);
+                    insertEntity.PartitionKey = "PROCESSED";
                     
-                    TableOperation insertOperation = TableOperation.Insert(temp);
-                    await table.ExecuteAsync(insertOperation);
+                    TableOperation insertOperation = TableOperation.Insert(insertEntity);
+                    try
+                    {
+                        await table.ExecuteAsync(insertOperation);
+                    }
+                    catch (Exception e)
+                    {
+                        Toast.MakeText(this, e.Message, ToastLength.Long).Show();
+                    }
+
 
                     customerList.RemoveAt(currentOrder);
-                    var intent = new Intent(this, typeof(RestaurantChef));
-                    StartActivity(intent);
+
+                    Toast.MakeText(this, "The order has been processed", ToastLength.Long).Show();
+
+                    //var intent = new Intent(this, typeof(RestaurantChef));
+                    //StartActivity(intent);
                 }
             };
             buttonConnect.Click += delegate
@@ -83,7 +91,7 @@ namespace SushEat.Droid
                     myConnection.thisDevice.SetPairingConfirmation(true);
                     myConnection.thisDevice.CreateBond();
                 }
-                catch (Exception deviceEX) { }
+                catch (Exception e) { Toast.MakeText(this, e.Message, ToastLength.Long).Show(); }
                 myConnection.thisAdapter.CancelDiscovery();
                 _socket = myConnection.thisDevice.CreateRfcommSocketToServiceRecord(Java.Util.UUID.FromString("00001101-0000-1000-8000-00805f9b34fb"));
                 myConnection.thisSocket = _socket;
@@ -98,7 +106,7 @@ namespace SushEat.Droid
                         listenThread.Start();
                     }
                 }
-                catch (Exception CloseEX) { }
+                catch (Exception e) { Toast.MakeText(this, e.Message, ToastLength.Long).Show(); }
             };
             buttonDisconnect.Click += delegate {
                 try
@@ -121,7 +129,7 @@ namespace SushEat.Droid
                     myConnection.thisSocket.OutputStream.WriteByte(1);
                     myConnection.thisSocket.OutputStream.Close();
                 }
-                catch (Exception outPutEX) { }
+                catch (Exception e) { Toast.MakeText(this, e.Message, ToastLength.Long).Show(); }
             };
             button2On.Click += delegate {
                 try
@@ -129,7 +137,7 @@ namespace SushEat.Droid
                     myConnection.thisSocket.OutputStream.WriteByte(2);
                     myConnection.thisSocket.OutputStream.Close();
                 }
-                catch (Exception outPutEX) { }
+                catch (Exception e) { Toast.MakeText(this, e.Message, ToastLength.Long).Show(); }
             };
             void listener()
             {

@@ -89,9 +89,13 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\Rolls.axml" />
-    <AndroidResource Include="Resources\layout\Veg.axml" />
+    <AndroidResource Include="Resources\layout\Veg.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
     <AndroidResource Include="Resources\layout\Sauce.axml" />
-    <AndroidResource Include="Resources\layout\incomingOrders.axml" />
+    <AndroidResource Include="Resources\layout\incomingOrders.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
     <AndroidResource Include="Resources\layout\processOrder.axml">
       <SubType>Designer</SubType>
     </AndroidResource>

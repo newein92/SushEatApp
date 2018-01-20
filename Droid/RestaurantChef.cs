@@ -1,33 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
 using Android.App;
 using Android.Content;
 using Android.OS;
-using Android.Runtime;
-using Android.Views;
 using Android.Widget;
-
-using System;
-
-using Android.Content;
-using Android.Content.PM;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
-using Android.OS;
-using Android.Bluetooth;
-
-//using Microsoft.WindowsAzure.MobileServices;
-
-//using Xamarin.Forms;
-//using Xamarin.Forms.Platform.Android;
-using System.Linq;
 using Microsoft.WindowsAzure.Storage; // Namespace for CloudStorageAccount
 using Microsoft.WindowsAzure.Storage.Table; // Namespace for Table storage types
-//using Microsoft.Azure; // Namespace for CloudConfigurationManager
 
 namespace SushEat.Droid
 {
@@ -43,27 +21,56 @@ namespace SushEat.Droid
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.incomingOrders);
-            // Create the table if it doesn't exist.
-            await table.CreateIfNotExistsAsync();
+            
             incomingOrders = new List<String>();
             listOfOrders = FindViewById<ListView>(Resource.Id.listView1);
-            listOfOrders.ItemClick += listOfOrders_ItemClick;
+            Button refresh = FindViewById<Android.Widget.Button>(Resource.Id.refresh);
+
+            // Retrieve the storage account from the connection string.
+            CloudStorageAccount storageAccount = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=susheattable;AccountKey=JnYEen+TGNIkA722hAMJTMfo+qNT3flVGDVScX158B3GckOPN+dtUOfWU2not3cjRPuqI4fQyhFq8wx/GY0I2g==;EndpointSuffix=core.windows.net");
+            // Create the table client.
+            CloudTableClient tableClient = storageAccount.CreateCloudTableClient();
+
+            // Create the CloudTable object that represents the "people" table.
+            CloudTable table = tableClient.GetTableReference("Customers");
+
+
+            // Create the table if it doesn't exist.
+            await table.CreateIfNotExistsAsync();
 
             TableQuery<Customer> query = new TableQuery<Customer>().Where(TableQuery.GenerateFilterCondition("PartitionKey", QueryComparisons.Equal, "ORDERED"));
             TableContinuationToken continuationToken = null;
+
+            refresh.Click += delegate
+            {
+                this.Recreate();
+            };
+
+            listOfOrders.ItemClick += listOfOrders_ItemClick;
+
+            
             do
             {
-                TableQuerySegment<Customer> tableQueryResult = await table.ExecuteQuerySegmentedAsync(query, continuationToken);
-                continuationToken = tableQueryResult.ContinuationToken;
-
-                foreach (Customer customer in tableQueryResult.Results)
+                try
                 {
-                    customerList.Add(customer);
-                    incomingOrders.Add(customer.Sorder);
+                    TableQuerySegment<Customer> tableQueryResult = await table.ExecuteQuerySegmentedAsync(query, continuationToken);
+                    continuationToken = tableQueryResult.ContinuationToken;
+
+                    foreach (Customer customer in tableQueryResult.Results)
+                    {
+                        customerList.Add(customer);
+                        incomingOrders.Add(customer.Sorder);
+                    }
+                    var incomingOrdersArray = incomingOrders.ToArray();
+                    listOfOrders.Adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, incomingOrdersArray);
+                    listOfOrders.DeferNotifyDataSetChanged();
+
                 }
-                var incomingOrdersArray = incomingOrders.ToArray();
-                listOfOrders.Adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, incomingOrdersArray);
-                listOfOrders.DeferNotifyDataSetChanged();
+                catch (Exception e)
+                {
+                    Toast.MakeText(this, e.Message, ToastLength.Long).Show();
+                }
+                
             } while (continuationToken != null);
 
 

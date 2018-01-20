@@ -55,10 +55,10 @@
         android:layout_marginLeft="130dp"
         android:layout_marginRight="130dp" />
     <Button
-      android:text="Mark order as processed"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/button5" />
+        android:text="Mark order as processed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5" />
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="94.6dp"

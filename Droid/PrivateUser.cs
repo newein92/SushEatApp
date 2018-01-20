@@ -1,30 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
 using Android.App;
-using Android.Content;
 using Android.OS;
-using Android.Runtime;
-using Android.Views;
 using Android.Widget;
-using System;
-
-using Android.App;
-using Android.Content;
-using Android.Content.PM;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
-using Android.OS;
 using Android.Bluetooth;
-
-//using Microsoft.WindowsAzure.MobileServices;
-
-//using Xamarin.Forms;
-//using Xamarin.Forms.Platform.Android;
-using System.Linq;
 
 namespace SushEat.Droid
 {
@@ -57,7 +35,7 @@ namespace SushEat.Droid
                     myConnection.thisDevice.SetPairingConfirmation(true);
                     myConnection.thisDevice.CreateBond();
                 }
-                catch (Exception deviceEX) { }
+                catch (Exception e) { Toast.MakeText(this, e.Message, ToastLength.Long).Show(); }
                 myConnection.thisAdapter.CancelDiscovery();
                 _socket = myConnection.thisDevice.CreateRfcommSocketToServiceRecord(Java.Util.UUID.FromString("00001101-0000-1000-8000-00805f9b34fb"));
                 myConnection.thisSocket = _socket;
@@ -72,7 +50,7 @@ namespace SushEat.Droid
                         listenThread.Start();
                     }
                 }
-                catch (Exception CloseEX) { }
+                catch (Exception e) { Toast.MakeText(this, e.Message, ToastLength.Long).Show(); }
             };
             buttonDisconnect.Click += delegate {
                 try
@@ -95,7 +73,7 @@ namespace SushEat.Droid
                     myConnection.thisSocket.OutputStream.WriteByte(1);
                     myConnection.thisSocket.OutputStream.Close();
                 }
-                catch (Exception outPutEX) { }
+                catch (Exception e) { Toast.MakeText(this, e.Message, ToastLength.Long).Show(); }
             };
             button2On.Click += delegate {
                 try
@@ -103,7 +81,7 @@ namespace SushEat.Droid
                     myConnection.thisSocket.OutputStream.WriteByte(2);
                     myConnection.thisSocket.OutputStream.Close();
                 }
-                catch (Exception outPutEX) { }
+                catch (Exception e) { Toast.MakeText(this, e.Message, ToastLength.Long).Show(); }
             };
             void listener()
             {

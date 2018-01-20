@@ -1,34 +1,12 @@
 ﻿using System;
-
 using Android.App;
 using Android.Content;
 using Android.Content.PM;
-using Android.Runtime;
-using Android.Views;
 using Android.Widget;
 using Android.OS;
 using Android.Bluetooth;
-
-//using Microsoft.WindowsAzure.MobileServices;
-
-//using Xamarin.Forms;
-//using Xamarin.Forms.Platform.Android;
 using System.Linq;
-//using Gcm.Client;
-
-//using Microsoft.Azure; // Namespace for CloudConfigurationManager
-using Microsoft.WindowsAzure.Storage; // Namespace for CloudStorageAccount
 using Microsoft.WindowsAzure.Storage.Table; // Namespace for Table storage types
-//using Microsoft.Azure; //Namespace for CloudConfigurationManager
-
-using System.Collections.Generic;
-
-
-//using Microsoft.WindowsAzure.MobileServices;
-
-//using Xamarin.Forms;
-//using Xamarin.Forms.Platform.Android;
-using System.Linq;
 
 namespace SushEat.Droid
 {
@@ -39,13 +17,7 @@ namespace SushEat.Droid
 		Theme = "@android:style/Theme.DeviceDefault")]
     public class MainActivity : Activity
     {
-        // Retrieve the storage account from the connection string.
-        public static CloudStorageAccount storageAccount = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=susheattable;AccountKey=JnYEen+TGNIkA722hAMJTMfo+qNT3flVGDVScX158B3GckOPN+dtUOfWU2not3cjRPuqI4fQyhFq8wx/GY0I2g==;EndpointSuffix=core.windows.net");
-        // Create the table client.
-        public static CloudTableClient tableClient = storageAccount.CreateCloudTableClient();
-
-        // Create the CloudTable object that represents the "people" table.
-        public static CloudTable table = tableClient.GetTableReference("Customers");
+        public static bool newCustomerActivity = false;
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -57,6 +29,7 @@ namespace SushEat.Droid
             
             RestaurantCustomer.Click += delegate
             {
+                newCustomerActivity = true;
                 var intent = new Intent(this, typeof(RestaurantCustomer));
                 StartActivity(intent);
 
@@ -105,5 +78,7 @@ namespace SushEat.Droid
     {
         public String name { get; set; }
     }
+
+    
 }
 

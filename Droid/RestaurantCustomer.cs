@@ -1,32 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
 using Android.App;
 using Android.Content;
 using Android.OS;
-using Android.Runtime;
-using Android.Views;
 using Android.Widget;
-using System;
-
-using Android.Content;
-using Android.Content.PM;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
-using Android.OS;
-using Android.Bluetooth;
-
-//using Microsoft.WindowsAzure.MobileServices;
-
-//using Xamarin.Forms;
-//using Xamarin.Forms.Platform.Android;
-using System.Linq;
 using Microsoft.WindowsAzure.Storage; // Namespace for CloudStorageAccount
 using Microsoft.WindowsAzure.Storage.Table; // Namespace for Table storage types
-//using Microsoft.Azure; // Namespace for CloudConfigurationManager
 
 namespace SushEat.Droid
 {
@@ -35,18 +14,55 @@ namespace SushEat.Droid
     {
         public static Customer customer = new Customer();
 
+        //public CustomerWrapper customer;
+
+        //protected override void OnDestroy()
+        //{
+          //  base.OnDestroy();
+           // customer = new Customer();
+       // }
+
         protected override async void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Menu);
-            // Create the table if it doesn't exist.
-            await table.CreateIfNotExistsAsync();
+            //var customerWrapper = LastNonConfigurationInstance as CustomerWrapper;
+            // if (customerWrapper == null)
+            // {
+            //     customer = new CustomerWrapper();
+            // }
+            // else
+            // {
+            //     customer = customerWrapper;
+            // }
+
+            if (newCustomerActivity)
+            {
+                customer = new Customer();
+            }
+            newCustomerActivity = false;
+            //Console.WriteLine("##################################################################");
+
+            // Retrieve the storage account from the connection string.
+            CloudStorageAccount storageAccount = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=susheattable;AccountKey=JnYEen+TGNIkA722hAMJTMfo+qNT3flVGDVScX158B3GckOPN+dtUOfWU2not3cjRPuqI4fQyhFq8wx/GY0I2g==;EndpointSuffix=core.windows.net");
+            // Create the table client.
+            CloudTableClient tableClient = storageAccount.CreateCloudTableClient();
+
+            // Create the CloudTable object that represents the "people" table.
+            CloudTable table = tableClient.GetTableReference("Customers");
+
+
+
             var fullName = FindViewById<EditText>(Resource.Id.fullName);
             var email = FindViewById<EditText>(Resource.Id.email);
             Button Veg = FindViewById<Android.Widget.Button>(Resource.Id.Veg);
             Button Sauce = FindViewById<Android.Widget.Button>(Resource.Id.Sauce);
             Button Rolls = FindViewById<Android.Widget.Button>(Resource.Id.Rolls);
             Button sendOrder = FindViewById<Android.Widget.Button>(Resource.Id.sendOrder);
+            //customer = new Customer();
+
+            // Create the table if it doesn't exist.
+            await table.CreateIfNotExistsAsync();
 
             Veg.Click += delegate
             {
@@ -78,7 +94,7 @@ namespace SushEat.Droid
                         vegs += (veg.item + ", ");
                     }
                 }
-                if (vegs.LastIndexOf(',') > -1) vegs.Remove(vegs.LastIndexOf(','), 1);
+                if (vegs.LastIndexOf(',') > -1) vegs.Remove(vegs.LastIndexOf(','), 2);
 
                 String sauces = "Sauces: ";
                 foreach (SauceItem sauce in customer.order.selectedSauceItems)
@@ -88,7 +104,7 @@ namespace SushEat.Droid
                         sauces += (sauce.item + ", ");
                     }
                 }
-                if (sauces.LastIndexOf(',') > -1) sauces.Remove(sauces.LastIndexOf(','), 1);
+                if (sauces.LastIndexOf(',') > -1) sauces.Remove(sauces.LastIndexOf(','), 2);
 
                 String rolls = "Rolls: ";
                 foreach (RollItem roll in customer.order.selectedRollItems)
@@ -98,19 +114,34 @@ namespace SushEat.Droid
                         rolls += (roll.item + ", ");
                     }
                 }
-                if (rolls.LastIndexOf(',') > -1) rolls.Remove(rolls.LastIndexOf(','), 1);
+                if (rolls.LastIndexOf(',') > -1) rolls.Remove(rolls.LastIndexOf(','), 2);
 
 
 
-                customer.Sorder = "Customer: " + customer.fullName + "\n" + vegs + "\n" + sauces + "\n" + rolls;
+                customer.Sorder = "Customer: " + customer.fullName + "\n" + customer.email + "\n" + vegs + "\n" + sauces + "\n" + rolls;
                 customer.RowKey = customer.email;
                 customer.PartitionKey = "ORDERED";
                 // Create the TableOperation object that inserts the customer entity.
-                TableOperation insertOperation = TableOperation.Insert(customer);
+                TableOperation insertOperation = TableOperation.InsertOrReplace(customer);
                 // Execute the insert operation.
-                await table.ExecuteAsync(insertOperation);
+                try 
+                {
+                    await table.ExecuteAsync(insertOperation);
+                }
+                catch (Exception e)
+                {
+                    Toast.MakeText(this, e.Message, ToastLength.Long).Show();
+                }
+                Toast.MakeText(this, "The order has been sent", ToastLength.Long).Show();
             };
         }
+
+        /*public override Java.Lang.Object OnRetainNonConfigurationInstance()
+        {
+            base.OnRetainNonConfigurationInstance();
+            return customer;
+        }*/
+
     }
 
     public class customerItem
