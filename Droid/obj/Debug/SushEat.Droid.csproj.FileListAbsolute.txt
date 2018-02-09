@@ -38,15 +38,29 @@ C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure
 C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\res\values\theme.xml
 C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\res\drawable\icon.png
 C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\res\values\color.xml
-C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\res\drawable\backgroundimage.png
-C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\res\drawable\menu.jpg
-C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\res\drawable\newveg.jpg
-C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\res\drawable\rolls.jpg
-C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\res\drawable\sauce.jpg
-C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\res\drawable\sushi.jpg
-C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\res\drawable\veg.jpg
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\res\drawable\mainpage.jpeg
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\res\drawable\sauces.jpg
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\res\drawable\sushirolls.jpg
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\res\drawable-hdpi\mainpage.jpeg
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\res\drawable-hdpi\sauces.jpg
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\res\drawable-hdpi\sushirolls.jpg
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\res\drawable-xhdpi\mainpage.jpeg
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\res\drawable-xhdpi\sauces.jpg
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\res\drawable-xhdpi\sushirolls.jpg
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\res\drawable-xxhdpi\mainpage.jpeg
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\res\drawable-xxhdpi\sauces.jpg
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\res\drawable-xxhdpi\sushirolls.jpg
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\res\drawable\vegetables.jpg
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\res\drawable-hdpi\vegetables.jpg
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\res\drawable-xhdpi\vegetables.jpg
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\res\drawable-xxhdpi\vegetables.jpg
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\res\drawable\restaurantcustomer.jpg
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\res\drawable-hdpi\restaurantcustomer.jpg
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\res\drawable-xhdpi\restaurantcustomer.jpg
+C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\res\drawable-xxhdpi\restaurantcustomer.jpg
 C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\R.cs.flag
 C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\obj\Debug\uploadflags.txt
+obj\Debug\linksrc\Mono.Android.pdb
 C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\bin\Debug\FormsViewGroup.dll.mdb
 C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\bin\Debug\Microsoft.WindowsAzure.Storage.dll.mdb
 C:\Users\Yan Itzhakovich\Desktop\Yan\limudim\year_tshah\winter\IoT project\azure\exapmle_app\Droid\bin\Debug\MvvmCross.Platform.dll.mdb
@@ -80,7 +94,6 @@ bin\Debug\Plugin.BLE.dll.mdb
 bin\Debug\Xamarin.Forms.Core.dll.mdb
 bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
 bin\Debug\Xamarin.Forms.Xaml.dll.mdb
-bin\Debug\Mono.Android.pdb
 bin\Debug\mscorlib.pdb
 bin\Debug\System.Core.pdb
 bin\Debug\System.pdb
@@ -105,7 +118,6 @@ obj\Debug\linksrc\Plugin.BLE.dll.mdb
 obj\Debug\linksrc\Xamarin.Forms.Core.dll.mdb
 obj\Debug\linksrc\Xamarin.Forms.Platform.Android.dll.mdb
 obj\Debug\linksrc\Xamarin.Forms.Xaml.dll.mdb
-obj\Debug\linksrc\Mono.Android.pdb
 obj\Debug\linksrc\mscorlib.pdb
 obj\Debug\linksrc\System.Core.pdb
 obj\Debug\linksrc\System.pdb

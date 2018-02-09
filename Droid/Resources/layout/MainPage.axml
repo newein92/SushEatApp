@@ -3,7 +3,7 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/backgroundimage">
+    android:background="@drawable/mainpage">
     <ImageView
         android:src="@drawable/icon"
         android:layout_width="wrap_content"

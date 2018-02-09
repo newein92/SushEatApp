@@ -29,7 +29,7 @@ namespace SushEat.Droid
                 "Spicy Mayonnaise","Chili","Lemon","Soy","Ginger",
                 "Teriyaki","Wasabi"
             };
-            listsauce = FindViewById<ListView>(Resource.Id.listView1);
+            listsauce = FindViewById<ListView>(Resource.Id.sauce_list);
             listsauce.Adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItemMultipleChoice, saucelist);
             listsauce.ChoiceMode = ChoiceMode.Multiple;
             Button sauceOrder = FindViewById<Android.Widget.Button>(Resource.Id.sauceOrder);

@@ -14,55 +14,38 @@ namespace SushEat.Droid
     {
         public static Customer customer = new Customer();
 
-        //public CustomerWrapper customer;
-
-        //protected override void OnDestroy()
-        //{
-          //  base.OnDestroy();
-           // customer = new Customer();
-       // }
-
-        protected override async void OnCreate(Bundle savedInstanceState)
+        protected override  void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Menu);
-            //var customerWrapper = LastNonConfigurationInstance as CustomerWrapper;
-            // if (customerWrapper == null)
-            // {
-            //     customer = new CustomerWrapper();
-            // }
-            // else
-            // {
-            //     customer = customerWrapper;
-            // }
+
+            
+       
+
+            // Retrieve the storage account from the connection string.
+            //CloudStorageAccount storageAccount = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=susheattable;AccountKey=JnYEen+TGNIkA722hAMJTMfo+qNT3flVGDVScX158B3GckOPN+dtUOfWU2not3cjRPuqI4fQyhFq8wx/GY0I2g==;EndpointSuffix=core.windows.net");
+            // Create the table client.
+            //CloudTableClient tableClient = storageAccount.CreateCloudTableClient();
+
+            // Create the CloudTable object that represents the "Customers" table.
+            //CloudTable table = tableClient.GetTableReference("Customers");
+            
+            Button Veg = FindViewById<Android.Widget.Button>(Resource.Id.Veg);
+            Button Sauce = FindViewById<Android.Widget.Button>(Resource.Id.Sauce);
+            Button Rolls = FindViewById<Android.Widget.Button>(Resource.Id.Rolls);
+            Button sendOrder = FindViewById<Android.Widget.Button>(Resource.Id.sendOrder);
+            //customer = new Customer();
+            var fullName = FindViewById<EditText>(Resource.Id.fullName);
+            var email = FindViewById<EditText>(Resource.Id.email);
 
             if (newCustomerActivity)
             {
                 customer = new Customer();
             }
             newCustomerActivity = false;
-            //Console.WriteLine("##################################################################");
-
-            // Retrieve the storage account from the connection string.
-            CloudStorageAccount storageAccount = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=susheattable;AccountKey=JnYEen+TGNIkA722hAMJTMfo+qNT3flVGDVScX158B3GckOPN+dtUOfWU2not3cjRPuqI4fQyhFq8wx/GY0I2g==;EndpointSuffix=core.windows.net");
-            // Create the table client.
-            CloudTableClient tableClient = storageAccount.CreateCloudTableClient();
-
-            // Create the CloudTable object that represents the "people" table.
-            CloudTable table = tableClient.GetTableReference("Customers");
-
-
-
-            var fullName = FindViewById<EditText>(Resource.Id.fullName);
-            var email = FindViewById<EditText>(Resource.Id.email);
-            Button Veg = FindViewById<Android.Widget.Button>(Resource.Id.Veg);
-            Button Sauce = FindViewById<Android.Widget.Button>(Resource.Id.Sauce);
-            Button Rolls = FindViewById<Android.Widget.Button>(Resource.Id.Rolls);
-            Button sendOrder = FindViewById<Android.Widget.Button>(Resource.Id.sendOrder);
-            //customer = new Customer();
 
             // Create the table if it doesn't exist.
-            await table.CreateIfNotExistsAsync();
+            //await table.CreateIfNotExistsAsync();
 
             Veg.Click += delegate
             {
@@ -118,7 +101,7 @@ namespace SushEat.Droid
 
 
 
-                customer.Sorder = "Customer: " + customer.fullName + "\n" + customer.email + "\n" + vegs + "\n" + sauces + "\n" + rolls;
+                customer.Sorder = "Customer: " + customer.fullName + "\nEmail: " + customer.email + "\n" + vegs + "\n" + sauces + "\n" + rolls;
                 customer.RowKey = customer.email;
                 customer.PartitionKey = "ORDERED";
                 // Create the TableOperation object that inserts the customer entity.

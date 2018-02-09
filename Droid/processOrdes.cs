@@ -4,15 +4,15 @@ using Android.App;
 using Android.OS;
 using Android.Widget;
 using Android.Bluetooth;
-using Microsoft.WindowsAzure.Storage; // Namespace for CloudStorageAccount
 using Microsoft.WindowsAzure.Storage.Table; // Namespace for Table storage types
+using Android.Content;
 
 namespace SushEat.Droid
 {
     [Activity(Label = "Process Order")]
     public class processOrder : RestaurantChef
     {
-        protected override async void OnCreate(Bundle savedInstanceState)
+        protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.processOrder);
@@ -30,15 +30,15 @@ namespace SushEat.Droid
             listenThread.Abort();
 
             // Retrieve the storage account from the connection string.
-            CloudStorageAccount storageAccount = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=susheattable;AccountKey=JnYEen+TGNIkA722hAMJTMfo+qNT3flVGDVScX158B3GckOPN+dtUOfWU2not3cjRPuqI4fQyhFq8wx/GY0I2g==;EndpointSuffix=core.windows.net");
+            //CloudStorageAccount storageAccount = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=susheattable;AccountKey=JnYEen+TGNIkA722hAMJTMfo+qNT3flVGDVScX158B3GckOPN+dtUOfWU2not3cjRPuqI4fQyhFq8wx/GY0I2g==;EndpointSuffix=core.windows.net");
             // Create the table client.
-            CloudTableClient tableClient = storageAccount.CreateCloudTableClient();
+            //CloudTableClient tableClient = storageAccount.CreateCloudTableClient();
 
             // Create the CloudTable object that represents the "people" table.
-            CloudTable table = tableClient.GetTableReference("Customers");
+            //CloudTable table = tableClient.GetTableReference("Customers");
 
             // Create the table if it doesn't exist.
-            await table.CreateIfNotExistsAsync();
+            //await table.CreateIfNotExistsAsync();
 
             markOrderProcessed.Click += async delegate
             {
@@ -72,12 +72,13 @@ namespace SushEat.Droid
                     }
 
 
-                    customerList.RemoveAt(currentOrder);
+                    //customerList.RemoveAt(currentOrder);
 
                     Toast.MakeText(this, "The order has been processed", ToastLength.Long).Show();
 
-                    //var intent = new Intent(this, typeof(RestaurantChef));
-                    //StartActivity(intent);
+                    var intent = new Intent(this, typeof(RestaurantChef));
+                    this.Finish();
+                    StartActivity(intent);
                 }
             };
             buttonConnect.Click += delegate

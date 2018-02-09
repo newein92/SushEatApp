@@ -8,6 +8,8 @@ using Android.Bluetooth;
 using System.Linq;
 using Microsoft.WindowsAzure.Storage.Table; // Namespace for Table storage types
 using Android.Util;
+using Microsoft.WindowsAzure.Storage; // Namespace for CloudStorageAccount
+
 
 namespace SushEat.Droid
 {
@@ -22,7 +24,15 @@ namespace SushEat.Droid
         
         public const string TAG = "MainActivity";
 
-        protected override void OnCreate(Bundle bundle)
+        // Retrieve the storage account from the connection string.
+        public static CloudStorageAccount storageAccount = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=susheattable;AccountKey=JnYEen+TGNIkA722hAMJTMfo+qNT3flVGDVScX158B3GckOPN+dtUOfWU2not3cjRPuqI4fQyhFq8wx/GY0I2g==;EndpointSuffix=core.windows.net");
+        // Create the table client.
+        public static CloudTableClient tableClient = storageAccount.CreateCloudTableClient();
+
+        // Create the CloudTable object that represents the "Customers" table.
+        public static CloudTable table = tableClient.GetTableReference("Customers");
+
+        protected override async void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.MainPage);
@@ -40,7 +50,11 @@ namespace SushEat.Droid
             Button PrivateUser = FindViewById<Android.Widget.Button>(Resource.Id.PrivateUser);
             Button RestaurantCustomer = FindViewById<Android.Widget.Button>(Resource.Id.RestaurantCustomer);
             Button RestaurantChef = FindViewById<Android.Widget.Button>(Resource.Id.RestaurantChef);
-            
+
+
+            // Create the table if it doesn't exist.
+            await table.CreateIfNotExistsAsync();
+
             RestaurantCustomer.Click += delegate
             {
                 newCustomerActivity = true;

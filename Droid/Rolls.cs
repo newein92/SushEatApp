@@ -25,7 +25,7 @@ namespace SushEat.Droid
                 "Vegetarian Roll- cucumber, carrot, avocado",
                 "Winter Roll- salmon, mushrooms, sweet potato"
             };
-            listrolls = FindViewById<ListView>(Resource.Id.listView1);
+            listrolls = FindViewById<ListView>(Resource.Id.roll_list);
             listrolls.Adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItemMultipleChoice, rolllist);
             listrolls.ChoiceMode = ChoiceMode.Multiple;
             Button rollOrder = FindViewById<Android.Widget.Button>(Resource.Id.rollOrder);

@@ -27,7 +27,7 @@ namespace SushEat.Droid
                 "Cucumber","Sweet Potato","Chives","Carrot",
                 "Avocado","Shitake Mushrooms"
             };
-            listvegs = FindViewById<ListView>(Resource.Id.listView1);
+            listvegs = FindViewById<ListView>(Resource.Id.veg_list);
             listvegs.Adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItemMultipleChoice, veglist);
             listvegs.ChoiceMode = ChoiceMode.Multiple;
             Button vegOrder = FindViewById<Android.Widget.Button>(Resource.Id.vegOrder);

@@ -2,7 +2,7 @@
 <xs:schema xmlns:app="http://schemas.android.com/apk/res-auto" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res-auto" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>19-Jan-18 10:18:26</xs:documentation>
+    <xs:documentation>09-Feb-18 13:26:07</xs:documentation>
   </xs:annotation>
   <xs:attribute name="buttonSize">
     <xs:annotation>
@@ -15,7 +15,7 @@
             <xs:enumeration value="icon_only" />
             <xs:enumeration value="standard" />
             <xs:enumeration value="wide" />
-            <xs:enumeration value="@drawable/backgroundimage" />
+            <xs:enumeration value="@drawable/cheff" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -38,9 +38,9 @@
             <xs:enumeration value="@drawable/googleg_disabled_color_18" />
             <xs:enumeration value="@drawable/googleg_standard_color_18" />
             <xs:enumeration value="@drawable/ic_arrow_back" />
+            <xs:enumeration value="@drawable/ic_launcher" />
             <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/menu" />
-            <xs:enumeration value="@drawable/newveg" />
+            <xs:enumeration value="@drawable/mainpage" />
             <xs:enumeration value="@drawable/notification_action_background" />
             <xs:enumeration value="@drawable/notification_bg" />
             <xs:enumeration value="@drawable/notification_bg_low" />
@@ -53,10 +53,10 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
-            <xs:enumeration value="@drawable/rolls" />
-            <xs:enumeration value="@drawable/sauce" />
-            <xs:enumeration value="@drawable/sushi" />
-            <xs:enumeration value="@drawable/veg" />
+            <xs:enumeration value="@drawable/restaurantcustomer" />
+            <xs:enumeration value="@drawable/sauces" />
+            <xs:enumeration value="@drawable/sushirolls" />
+            <xs:enumeration value="@drawable/vegetables" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -296,7 +296,7 @@
             <xs:enumeration value="auto" />
             <xs:enumeration value="dark" />
             <xs:enumeration value="light" />
-            <xs:enumeration value="@drawable/backgroundimage" />
+            <xs:enumeration value="@drawable/cheff" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -319,9 +319,9 @@
             <xs:enumeration value="@drawable/googleg_disabled_color_18" />
             <xs:enumeration value="@drawable/googleg_standard_color_18" />
             <xs:enumeration value="@drawable/ic_arrow_back" />
+            <xs:enumeration value="@drawable/ic_launcher" />
             <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/menu" />
-            <xs:enumeration value="@drawable/newveg" />
+            <xs:enumeration value="@drawable/mainpage" />
             <xs:enumeration value="@drawable/notification_action_background" />
             <xs:enumeration value="@drawable/notification_bg" />
             <xs:enumeration value="@drawable/notification_bg_low" />
@@ -334,10 +334,10 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
-            <xs:enumeration value="@drawable/rolls" />
-            <xs:enumeration value="@drawable/sauce" />
-            <xs:enumeration value="@drawable/sushi" />
-            <xs:enumeration value="@drawable/veg" />
+            <xs:enumeration value="@drawable/restaurantcustomer" />
+            <xs:enumeration value="@drawable/sauces" />
+            <xs:enumeration value="@drawable/sushirolls" />
+            <xs:enumeration value="@drawable/vegetables" />
             <xs:enumeration value="@android:drawable/alert_dark_frame" />
             <xs:enumeration value="@android:drawable/alert_light_frame" />
             <xs:enumeration value="@android:drawable/arrow_down_float" />
@@ -574,7 +574,7 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@drawable/backgroundimage" />
+            <xs:enumeration value="@drawable/cheff" />
             <xs:enumeration value="@drawable/common_full_open_on_phone" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark" />
             <xs:enumeration value="@drawable/common_google_signin_btn_icon_dark_focused" />
@@ -597,9 +597,9 @@
             <xs:enumeration value="@drawable/googleg_disabled_color_18" />
             <xs:enumeration value="@drawable/googleg_standard_color_18" />
             <xs:enumeration value="@drawable/ic_arrow_back" />
+            <xs:enumeration value="@drawable/ic_launcher" />
             <xs:enumeration value="@drawable/icon" />
-            <xs:enumeration value="@drawable/menu" />
-            <xs:enumeration value="@drawable/newveg" />
+            <xs:enumeration value="@drawable/mainpage" />
             <xs:enumeration value="@drawable/notification_action_background" />
             <xs:enumeration value="@drawable/notification_bg" />
             <xs:enumeration value="@drawable/notification_bg_low" />
@@ -612,10 +612,11 @@
             <xs:enumeration value="@drawable/notification_template_icon_low_bg" />
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
-            <xs:enumeration value="@drawable/rolls" />
-            <xs:enumeration value="@drawable/sauce" />
-            <xs:enumeration value="@drawable/sushi" />
-            <xs:enumeration value="@drawable/veg" />
+            <xs:enumeration value="@drawable/restaurantcustomer" />
+            <xs:enumeration value="@drawable/sauces" />
+            <xs:enumeration value="@drawable/sushirolls" />
+            <xs:enumeration value="@drawable/vegetables" />
+            <xs:enumeration value="@string/app_name" />
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/common_google_play_services_enable_button" />
             <xs:enumeration value="@string/common_google_play_services_enable_text" />
